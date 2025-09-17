@@ -1,0 +1,1011 @@
+[
+{ "epigrafe": 1, "question": "¿Qué ventaja principal ofrecieron los dispositivos de estado sólido frente a las válvulas de vacío en los sistemas de aviónica?", "options": ["Su capacidad de soportar tensiones mucho más altas", "Mayor fiabilidad y resistencia en entornos adversos", "Un consumo de corriente significativamente superior"], "answer": 1, "explanation": "Los dispositivos de estado sólido reemplazaron a las válvulas de vacío debido a su fiabilidad, durabilidad y resistencia en condiciones exigentes." },
+
+{ "epigrafe": 1, "question": "En un átomo, ¿qué nombre recibe la capa más externa de electrones que determina las propiedades químicas del material?", "options": ["Capa de conducción", "Capa de enlace", "Capa de valencia"], "answer": 2, "explanation": "La capa de valencia es la más externa y define el comportamiento químico y eléctrico de los materiales." },
+
+{ "epigrafe": 1, "question": "El silicio en estado puro actúa como:", "options": ["Conductor", "Aislante", "Superconductor"], "answer": 1, "explanation": "El silicio puro es un aislante porque no tiene electrones libres en su estructura cristalina." },
+
+{ "epigrafe": 1, "question": "¿Cómo se logra convertir el silicio en un material semiconductor útil para la electrónica?", "options": ["Aplicando un campo eléctrico externo", "Mediante un proceso de dopado con impurezas", "Enfriándolo a temperaturas muy bajas"], "answer": 1, "explanation": "El dopado con elementos de 3 o 5 electrones de valencia permite crear materiales tipo P y N, convirtiendo al silicio en semiconductor." },
+
+{ "epigrafe": 1, "question": "Cuando el silicio se dopa con fósforo (5 electrones de valencia), se obtiene:", "options": ["Material tipo N", "Material tipo P", "Un aislante mejorado"], "answer": 0, "explanation": "El fósforo aporta un electrón extra que queda libre, generando un semiconductor tipo N (donador)." },
+
+{ "epigrafe": 1, "question": "Cuando el silicio se dopa con boro (3 electrones de valencia), se produce:", "options": ["Material tipo N", "Material tipo P", "Un superconductor"], "answer": 1, "explanation": "El boro genera huecos en la red cristalina, creando un material tipo P (aceptor)." },
+
+{ "epigrafe": 1, "question": "En un semiconductor tipo N, los portadores mayoritarios son:", "options": ["Huecos", "Electrones", "Ambos en igual proporción"], "answer": 1, "explanation": "En el material tipo N, los electrones son los portadores mayoritarios, mientras que los huecos son minoritarios." },
+
+{ "epigrafe": 1, "question": "En un semiconductor tipo P, los portadores mayoritarios son:", "options": ["Electrones", "Huecos", "Protones"], "answer": 1, "explanation": "En el material tipo P, los huecos son los portadores mayoritarios y los electrones son minoritarios." },
+
+{ "epigrafe": 1, "question": "¿Qué fenómeno se produce al unir un material tipo P con uno tipo N?", "options": ["Un condensador", "Una unión PN", "Un aislante perfecto"], "answer": 1, "explanation": "La unión de materiales P y N crea la unión PN, base de los diodos." },
+
+{ "epigrafe": 1, "question": "En una unión PN sin polarización externa (unbiased), se forma:", "options": ["Una zona de conducción libre", "Una zona de agotamiento (depletion zone)", "Una zona superconductora"], "answer": 1, "explanation": "En ausencia de tensión externa, en la unión PN se forma una zona de agotamiento con iones fijos y campo eléctrico interno." },
+
+{ "epigrafe": 1, "question": "¿Qué ocurre en la zona de agotamiento de una unión PN?", "options": ["Se concentra una gran cantidad de electrones libres", "Se forman iones fijos creando un campo eléctrico interno", "Se convierte en una región superconductora"], "answer": 1, "explanation": "La zona de agotamiento carece de portadores libres y contiene iones fijos que generan un campo eléctrico de barrera." },
+
+{ "epigrafe": 1, "question": "Para que un diodo de silicio conduzca en polarización directa, la tensión mínima aproximada debe ser de:", "options": ["0,3 V", "0,7 V", "1,5 V"], "answer": 1, "explanation": "En los diodos de silicio la barrera de potencial requiere aproximadamente 0,7 V para permitir la conducción." },
+
+{ "epigrafe": 1, "question": "La tensión umbral en un diodo de germanio es aproximadamente:", "options": ["0,3 V", "0,7 V", "1,1 V"], "answer": 0, "explanation": "El germanio necesita una menor energía para superar la barrera de potencial, aproximadamente 0,3 V." },
+
+{ "epigrafe": 1, "question": "Cuando un diodo se polariza inversamente, la corriente que circula es:", "options": ["Muy alta, debido a los electrones libres", "Muy baja, debido a los portadores minoritarios", "Inexistente en todo caso"], "answer": 1, "explanation": "En polarización inversa la corriente es mínima y está originada solo por portadores minoritarios." },
+
+{ "epigrafe": 1, "question": "El parámetro PRV (Peak Reverse Voltage) en un diodo indica:", "options": ["La tensión máxima de polarización inversa que soporta sin dañarse", "La tensión mínima necesaria para conducir en directa", "El valor medio de la corriente directa"], "answer": 0, "explanation": "El PRV representa la máxima tensión inversa antes de que se produzca la ruptura de la unión." },
+
+{ "epigrafe": 1, "question": "La corriente de fuga en un diodo en polarización inversa se denomina:", "options": ["Corriente directa", "Corriente de saturación inversa", "Corriente de recuperación"], "answer": 1, "explanation": "En polarización inversa circula una pequeña corriente de fuga denominada corriente de saturación inversa." },
+
+{ "epigrafe": 1, "question": "El tiempo que tarda un diodo en pasar de conducción en directa a bloqueo en inversa se llama:", "options": ["Tiempo de recuperación inversa (TRR)", "Tiempo de saturación", "Tiempo de respuesta"], "answer": 0, "explanation": "El TRR es el tiempo necesario para que el diodo recupere su estado de bloqueo tras conducir en directa." },
+
+{ "epigrafe": 1, "question": "La caída de tensión típica en un diodo Schottky en directa es:", "options": ["0,15 V", "0,7 V", "1,1 V"], "answer": 0, "explanation": "El diodo Schottky tiene una barrera metálica-semiconductor con una caída típica de 0,15 a 0,3 V." },
+
+{ "epigrafe": 1, "question": "En un diodo Zener, la conducción en inversa controlada ocurre a:", "options": ["La tensión de avalancha", "La tensión Zener", "La tensión umbral directa"], "answer": 1, "explanation": "El diodo Zener está diseñado para conducir en inversa de forma estable a partir de su tensión Zener." },
+
+{ "epigrafe": 1, "question": "El símbolo de un diodo se caracteriza por:", "options": ["Una flecha que indica el sentido de los electrones", "Una flecha que apunta al cátodo y representa la corriente convencional", "Dos flechas opuestas que indican bidireccionalidad"], "answer": 1, "explanation": "El símbolo del diodo muestra una flecha que indica el sentido de la corriente convencional hacia el cátodo." },
+
+{ "epigrafe": 1, "question": "El código 1N4148 identifica:", "options": ["Un transistor bipolar", "Un diodo de señal rápido", "Un rectificador de potencia"], "answer": 1, "explanation": "El 1N4148 es un diodo de señal de conmutación rápida, ampliamente usado en electrónica." },
+
+{ "epigrafe": 1, "question": "En la designación de diodos, la letra 'N' significa:", "options": ["Número de unión", "Dispositivo de estado sólido", "Semiconductor"], "answer": 2, "explanation": "En la nomenclatura como 1Nxxxx, la 'N' indica que el dispositivo es un semiconductor." },
+
+{ "epigrafe": 1, "question": "Un diodo de potencia encapsulado en metal tiene como objetivo principal:", "options": ["Facilitar el montaje en placas", "Reducir la resistencia serie", "Disipar calor como disipador térmico"], "answer": 2, "explanation": "Los diodos de potencia encapsulados en metal permiten disipar el calor generado por altas corrientes." },
+
+{ "epigrafe": 1, "question": "Un fotodiodo se utiliza principalmente como:", "options": ["Fuente de luz", "Sensor de radiación electromagnética", "Limitador de tensión"], "answer": 1, "explanation": "El fotodiodo convierte la energía lumínica en corriente eléctrica, siendo usado como sensor de luz." },
+
+{ "epigrafe": 1, "question": "En un LED, la energía liberada por los electrones al recombinarse con los huecos se manifiesta como:", "options": ["Radiación térmica", "Radiación luminosa", "Un campo magnético"], "answer": 1, "explanation": "En los LED, la recombinación electrón-hueco libera energía en forma de luz visible o infrarroja." },
+
+{ "epigrafe": 1, "question": "La principal ventaja de los LED frente a las lámparas incandescentes es:", "options": ["Mayor consumo de corriente", "Mayor vida útil y menor calor disipado", "Mayor voltaje de funcionamiento"], "answer": 1, "explanation": "Los LED presentan menor consumo, mayor durabilidad y generan menos calor que las lámparas incandescentes." },
+
+{ "epigrafe": 1, "question": "El display de siete segmentos con cátodo común funciona cuando:", "options": ["Se conecta cada ánodo a positivo", "Se conecta cada cátodo a negativo", "Se conectan todos los segmentos en paralelo"], "answer": 0, "explanation": "En el display de cátodo común, todos los cátodos están unidos a tierra y los ánodos se excitan con tensión positiva." },
+
+{ "epigrafe": 1, "question": "En un rectificador de media onda, la eficiencia energética es baja porque:", "options": ["Solo se aprovecha medio ciclo de la señal AC", "La corriente se anula en cada semiciclo", "La tensión de salida es superior a la de entrada"], "answer": 0, "explanation": "En la rectificación de media onda solo se aprovecha un semiciclo, desperdiciando el otro." },
+
+{ "epigrafe": 1, "question": "El puente de Graetz o rectificador en puente utiliza:", "options": ["Dos diodos en paralelo", "Cuatro diodos en disposición especial", "Un único diodo en serie"], "answer": 1, "explanation": "El rectificador en puente utiliza cuatro diodos para aprovechar ambos semiciclos de la señal AC." },
+
+{ "epigrafe": 1, "question": "La principal aplicación del diodo varactor es:", "options": ["Actuar como rectificador de potencia", "Proporcionar capacitancia variable controlada por voltaje", "Detectar radiación infrarroja"], "answer": 1, "explanation": "El diodo varactor funciona como un condensador variable controlado por tensión inversa, usado en sintonía de RF." },
+
+{ "epigrafe": 1, "question": "El diodo Schottky es especialmente adecuado para:", "options": ["Rectificación en alta frecuencia", "Iluminación de paneles", "Medición de temperatura"], "answer": 0, "explanation": "El diodo Schottky tiene tiempos de conmutación muy bajos y caída de tensión reducida, lo que lo hace ideal para rectificación en alta frecuencia." },
+
+{ "epigrafe": 1, "question": "La región de ruptura en un diodo normal que provoca fallo irreversible se denomina:", "options": ["Zona de avalancha", "Zona Zener", "Zona activa"], "answer": 0, "explanation": "La ruptura por avalancha en un diodo no diseñado para soportarla provoca fallo irreversible." },
+
+{ "epigrafe": 1, "question": "El símbolo de un LED se diferencia del de un diodo convencional porque incluye:", "options": ["Un círculo", "Dos flechas salientes", "Una resistencia en paralelo"], "answer": 1, "explanation": "El LED se representa como un diodo con dos flechas que indican la emisión de luz." },
+
+{ "epigrafe": 1, "question": "Un puente rectificador con cuatro diodos proporciona:", "options": ["Corriente alterna regulada", "Corriente continua con ambos semiciclos", "Corriente continua solo con semiciclo positivo"], "answer": 1, "explanation": "El puente rectificador utiliza ambos semiciclos de la señal AC, obteniendo una salida continua más eficiente." },
+
+{ "epigrafe": 1, "question": "El fenómeno de 'thermal runaway' en un diodo se produce por:", "options": ["Un exceso de tensión inversa", "Un aumento de corriente que incrementa la temperatura y genera más corriente", "Un defecto de fabricación"], "answer": 1, "explanation": "La fuga térmica o thermal runaway ocurre cuando la temperatura eleva la corriente de fuga, lo que genera más calor y finalmente destruye el diodo." },
+
+{ "epigrafe": 1, "question": "El color emitido por un LED depende de:", "options": ["La tensión de alimentación aplicada", "El material semiconductor usado en su fabricación", "El tamaño del encapsulado"], "answer": 1, "explanation": "La longitud de onda de la luz emitida depende de los materiales semiconductores empleados (GaAs, GaP, InGaN, etc.)." },
+
+{ "epigrafe": 1, "question": "La prueba básica de un diodo con óhmetro consiste en:", "options": ["Medir la resistencia en ambos sentidos", "Aplicar una tensión alterna elevada", "Calentar el diodo y medir la caída de tensión"], "answer": 0, "explanation": "Con un óhmetro se mide resistencia directa e inversa; un buen diodo mostrará baja resistencia en directa y alta en inversa." },
+
+{ "epigrafe": 1, "question": "En un circuito rectificador de onda completa con toma central se utilizan:", "options": ["Dos diodos", "Cuatro diodos", "Un diodo"], "answer": 0, "explanation": "El rectificador de onda completa con transformador de toma central requiere dos diodos, uno para cada semiciclo." },
+
+{ "epigrafe": 1, "question": "Un varistor se utiliza principalmente para:", "options": ["Rectificar corriente alterna", "Proteger contra sobretensiones transitorias", "Emitir luz cuando se excede la tensión"], "answer": 1, "explanation": "El varistor tiene una resistencia no lineal y se usa como protector frente a picos de tensión." },
+
+{ "epigrafe": 1, "question": "La caída de tensión directa en un diodo de germanio es menor porque:", "options": ["Su estructura cristalina requiere menos energía para liberar electrones", "Conduce más portadores minoritarios", "Tiene un encapsulado metálico"], "answer": 0, "explanation": "El germanio tiene una energía de banda prohibida menor que el silicio, por lo que su tensión umbral es menor." },
+
+{ "epigrafe": 1, "question": "Cuando varios diodos se conectan en paralelo, el objetivo es:", "options": ["Reducir la caída de tensión", "Compartir la corriente entre ellos", "Aumentar la tensión soportada"], "answer": 1, "explanation": "En paralelo los diodos se reparten la corriente, aumentando la capacidad total de conducción." },
+
+{ "epigrafe": 1, "question": "Cuando varios diodos se conectan en serie, se busca principalmente:", "options": ["Reducir la resistencia total", "Soportar tensiones inversas mayores", "Emitir más luz"], "answer": 1, "explanation": "En serie se suman las tensiones inversas soportadas, protegiendo contra tensiones más altas." },
+
+{ "epigrafe": 1, "question": "El parámetro VF@IF especificado en hojas de datos indica:", "options": ["La caída de tensión directa a una corriente determinada", "La resistencia inversa máxima", "El tiempo de recuperación"], "answer": 0, "explanation": "VF@IF es la caída de tensión directa medida a una corriente especificada." },
+
+{ "epigrafe": 1, "question": "La corriente inversa en un diodo aumenta significativamente cuando:", "options": ["Se eleva la frecuencia", "Se incrementa la temperatura", "Se reduce la tensión aplicada"], "answer": 1, "explanation": "La corriente de fuga en polarización inversa crece con la temperatura debido a la generación de más pares electrón-hueco." },
+
+{ "epigrafe": 1, "question": "Un diodo de avalancha se diferencia de uno normal porque:", "options": ["Tolera la ruptura inversa sin dañarse", "Tiene menor caída de tensión directa", "Emite radiación al conducir"], "answer": 0, "explanation": "El diodo de avalancha está diseñado para soportar la ruptura en inversa de forma controlada." },
+
+{ "epigrafe": 1, "question": "En la nomenclatura de diodos, el número que precede a la 'N' indica:", "options": ["El número de uniones presentes", "El tipo de encapsulado", "La corriente máxima"], "answer": 0, "explanation": "El número inicial indica la cantidad de uniones semiconductoras (1 para diodo, 2 para transistor, etc.)." },
+
+{ "epigrafe": 1, "question": "Un diodo LED de color azul generalmente requiere una tensión directa de:", "options": ["0,7 V", "1,2 V", "Más de 2 V"], "answer": 2, "explanation": "Los LED azules y blancos tienen tensiones directas más altas, típicamente entre 2,5 y 3,5 V." },
+
+{ "epigrafe": 1, "question": "El diodo varactor se comporta como:", "options": ["Un condensador variable dependiente de la tensión inversa", "Un rectificador de media onda", "Un generador de corriente"], "answer": 0, "explanation": "El varactor actúa como un condensador cuya capacitancia varía con la tensión inversa aplicada." },
+
+{ "epigrafe": 1, "question": "Los diodos de señal suelen manejar corrientes del orden de:", "options": ["Amperios", "Cientos de miliamperios", "Microamperios"], "answer": 1, "explanation": "Los diodos de señal trabajan con corrientes pequeñas, típicamente hasta unos 100 mA." },
+
+{ "epigrafe": 1, "question": "Un puente rectificador entrega a la carga:", "options": ["Un voltaje continuo pulsante", "Corriente continua perfectamente filtrada", "Una señal triangular"], "answer": 0, "explanation": "El puente rectificador entrega una corriente continua pulsante, que luego se suele filtrar con condensadores." },
+
+{ "epigrafe": 1, "question": "El principal riesgo de aplicar exceso de calor al soldar un diodo es:", "options": ["Reducir su caída de tensión directa", "Dañar la unión PN interna", "Invertir la polaridad del cátodo"], "answer": 1, "explanation": "El calor excesivo puede deteriorar la unión PN y provocar fallos irreversibles en el diodo." },
+
+{ "epigrafe": 1, "question": "El término 'back-to-front ratio' en un diodo se refiere a:", "options": ["La relación entre la corriente directa e inversa", "La proporción de tensión soportada en directa respecto a inversa", "El cociente entre la resistencia inversa y la directa"], "answer": 2, "explanation": "El back-to-front ratio mide la relación entre la resistencia inversa (alta) y la resistencia directa (baja)." },
+
+{ "epigrafe": 1, "question": "En un diodo LED, cuando se polariza en inversa:", "options": ["Emite más luz", "No conduce y no emite luz", "Se comporta como un fotodiodo"], "answer": 1, "explanation": "El LED no conduce ni emite luz cuando se conecta en polarización inversa." },
+
+{ "epigrafe": 1, "question": "Los diodos rectificadores de potencia pueden conducir corrientes de:", "options": ["Decenas a cientos de amperios", "Milésimas de amperio", "Microamperios únicamente"], "answer": 0, "explanation": "Los rectificadores de potencia están diseñados para manejar desde algunos amperios hasta cientos de amperios." },
+
+{ "epigrafe": 1, "question": "El tiempo de recuperación inversa es especialmente crítico en:", "options": ["Rectificadores de baja frecuencia", "Circuitos de conmutación rápida", "Filtros pasivos"], "answer": 1, "explanation": "En conmutación rápida, un TRR elevado provoca pérdidas y distorsiones." },
+
+{ "epigrafe": 1, "question": "El color de las bandas pintadas en un diodo indica:", "options": ["Su potencia máxima", "El número de serie o identificación", "El lado correspondiente al ánodo"], "answer": 1, "explanation": "Los códigos de colores en diodos identifican el tipo y número de referencia del componente." },
+
+{ "epigrafe": 1, "question": "Un diodo en serie con una resistencia conectado a una fuente de AC constituye:", "options": ["Un circuito de onda completa", "Un rectificador de media onda", "Un filtro pasabajo"], "answer": 1, "explanation": "Con un solo diodo se rectifica únicamente un semiciclo de la señal AC, es decir, media onda." },
+
+{ "epigrafe": 1, "question": "La eficiencia de un rectificador de onda completa respecto a uno de media onda es:", "options": ["Menor", "Igual", "Mayor"], "answer": 2, "explanation": "Un rectificador de onda completa aprovecha ambos semiciclos de la señal AC, siendo más eficiente." },
+
+{ "epigrafe": 1, "question": "El diodo empleado para estabilizar una tensión fija en circuitos reguladores es:", "options": ["Schottky", "Zener", "Varactor"], "answer": 1, "explanation": "El diodo Zener se utiliza para regulación de tensión ya que mantiene estable su voltaje Zener en inversa." },
+
+{ "epigrafe": 1, "question": "La fuga de corriente en un diodo inversamente polarizado aumenta principalmente por:", "options": ["La reducción de voltaje aplicado", "El aumento de la temperatura", "La reducción de la capacitancia"], "answer": 1, "explanation": "A mayor temperatura, mayor generación de pares electrón-hueco y por tanto más corriente de fuga." },
+
+{ "epigrafe": 1, "question": "Un display LED de siete segmentos en ánodo común se activa:", "options": ["Aplicando tensión positiva a los cátodos", "Aplicando tensión negativa a los cátodos", "Excitando simultáneamente todos los segmentos"], "answer": 1, "explanation": "En un display de ánodo común, todos los ánodos se conectan al positivo y cada cátodo se controla con señal negativa." },
+
+{ "epigrafe": 1, "question": "El principal uso de un diodo de señal como el 1N4148 es:", "options": ["Rectificación de alta corriente", "Conmutación rápida y detección", "Emisión de luz"], "answer": 1, "explanation": "El 1N4148 se utiliza en conmutación de alta velocidad y aplicaciones de señal." },
+
+{ "epigrafe": 1, "question": "La estructura de un diodo Schottky está formada por:", "options": ["Unión P-N convencional", "Unión metal-semiconductor", "Unión doble P-N-P"], "answer": 1, "explanation": "El Schottky se basa en la unión entre un metal y un semiconductor, sin zona de carga almacenada." },
+
+{ "epigrafe": 1, "question": "En una prueba con óhmetro, un diodo en buen estado mostrará:", "options": ["Alta resistencia en ambos sentidos", "Resistencia baja en directa y alta en inversa", "Resistencia baja en ambos sentidos"], "answer": 1, "explanation": "El comportamiento esperado es baja resistencia en polarización directa y alta en inversa." },
+
+{ "epigrafe": 1, "question": "Un diodo avalanche se diferencia del Zener porque:", "options": ["Se daña al superar la tensión crítica", "Soporta la ruptura inversa pero a mayores tensiones", "Conduce en directa con menor caída de tensión"], "answer": 1, "explanation": "El diodo avalanche está diseñado para soportar rupturas en tensiones inversas mucho más elevadas que el Zener." },
+
+{ "epigrafe": 1, "question": "La principal aplicación de los diodos en paralelo es:", "options": ["Aumentar la tensión inversa soportada", "Compartir corriente entre ellos", "Disminuir la tensión de umbral"], "answer": 1, "explanation": "Conectando diodos en paralelo se reparte la corriente para manejar valores más altos." },
+
+{ "epigrafe": 1, "question": "En un diodo LED, el voltaje de conducción depende de:", "options": ["La corriente aplicada", "El material semiconductor y el color de emisión", "El tamaño del encapsulado"], "answer": 1, "explanation": "El material y la longitud de onda determinan la tensión de conducción de un LED." },
+
+{ "epigrafe": 1, "question": "Un rectificador de puente de diodos convierte:", "options": ["AC en AC de menor voltaje", "AC en DC pulsante", "DC en AC"], "answer": 1, "explanation": "El puente rectificador convierte la corriente alterna en corriente continua pulsante." },
+
+{ "epigrafe": 1, "question": "Un diodo varactor se usa frecuentemente en:", "options": ["Filtros de paso bajo", "Circuitos de sintonía de radiofrecuencia", "Fuentes de alimentación de potencia"], "answer": 1, "explanation": "El varactor, al comportarse como un condensador variable, se utiliza en sintonizadores de RF." },
+
+{ "epigrafe": 1, "question": "La corriente de saturación inversa en un diodo depende de:", "options": ["La temperatura", "El valor de VF@IF", "El encapsulado"], "answer": 0, "explanation": "La corriente inversa crece de forma exponencial con la temperatura." },
+
+{ "epigrafe": 1, "question": "En un circuito rectificador de media onda, la frecuencia de la señal de salida es:", "options": ["Igual a la frecuencia de entrada", "El doble de la frecuencia de entrada", "La mitad de la frecuencia de entrada"], "answer": 0, "explanation": "En la media onda solo se aprovecha un semiciclo, por lo que la frecuencia de la salida coincide con la de la señal AC original." },
+
+{ "epigrafe": 1, "question": "En un rectificador de onda completa con toma central, la frecuencia de salida es:", "options": ["Igual a la frecuencia de entrada", "El doble de la frecuencia de entrada", "La mitad de la frecuencia de entrada"], "answer": 1, "explanation": "En la onda completa, ambos semiciclos son rectificados, duplicando la frecuencia de la señal de salida." },
+
+{ "epigrafe": 1, "question": "El parámetro IF(AV) en una hoja de datos de un diodo indica:", "options": ["Corriente media máxima en conducción directa", "Corriente de pico inversa", "Tiempo máximo de recuperación"], "answer": 0, "explanation": "IF(AV) representa la corriente media máxima que el diodo puede conducir en directa sin dañarse." },
+
+{ "epigrafe": 1, "question": "En un diodo LED de color rojo, la tensión directa típica es:", "options": ["0,7 V", "1,8 - 2,2 V", "3,5 V"], "answer": 1, "explanation": "Los LED rojos requieren entre 1,8 y 2,2 V para conducir en polarización directa." },
+
+{ "epigrafe": 1, "question": "El símbolo de un fotodiodo se distingue porque:", "options": ["Tiene flechas apuntando hacia él", "Tiene flechas que salen de él", "Se dibuja con un círculo alrededor"], "answer": 0, "explanation": "El símbolo del fotodiodo incluye flechas que apuntan hacia el componente, indicando la incidencia de luz." },
+
+{ "epigrafe": 1, "question": "El efecto de avalancha en un diodo ocurre cuando:", "options": ["La corriente directa es excesiva", "La tensión inversa supera un valor crítico", "Se polariza a muy bajas temperaturas"], "answer": 1, "explanation": "El efecto avalancha aparece cuando la tensión inversa aplicada es tan alta que rompe la barrera de potencial." },
+
+{ "epigrafe": 1, "question": "Los diodos Schottky son especialmente útiles en fuentes conmutadas porque:", "options": ["Soportan grandes tensiones inversas", "Tienen bajo tiempo de recuperación inversa", "Trabajan con muy altas corrientes"], "answer": 1, "explanation": "Su característica principal es la rapidez de conmutación gracias a la ausencia de almacenamiento de carga." },
+
+{ "epigrafe": 1, "question": "En un puente rectificador, durante el semiciclo positivo de la señal AC conducen:", "options": ["Los dos diodos superiores", "Un diodo superior y uno inferior", "Todos los diodos"], "answer": 1, "explanation": "En cada semiciclo conducen dos diodos del puente, uno de la parte superior y otro de la parte inferior." },
+
+{ "epigrafe": 1, "question": "El valor de corriente de fuga en inversa de un diodo típico está en el rango de:", "options": ["Microamperios", "Miliamperios", "Amperios"], "answer": 0, "explanation": "La corriente de fuga inversa de un diodo está en el orden de los microamperios en condiciones normales." },
+
+{ "epigrafe": 1, "question": "El encapsulado metálico en diodos de potencia se utiliza para:", "options": ["Reducir la resistencia eléctrica", "Mejorar la disipación térmica", "Evitar fugas inversas"], "answer": 1, "explanation": "El encapsulado metálico actúa como disipador de calor, facilitando la refrigeración del diodo." },
+
+{ "epigrafe": 1, "question": "La caída de tensión en un diodo de silicio en conducción directa se debe a:", "options": ["La resistencia interna del material", "La energía necesaria para superar la barrera de potencial", "El efecto fotoeléctrico"], "answer": 1, "explanation": "La barrera de potencial en el silicio requiere aproximadamente 0,7 V para ser superada y permitir la conducción." },
+
+{ "epigrafe": 1, "question": "Un LED blanco se obtiene generalmente mediante:", "options": ["Fósforo que convierte la luz azul en blanca", "Un LED de germanio con dopado especial", "La combinación de tres LED en paralelo"], "answer": 0, "explanation": "El LED blanco suele generarse con un LED azul que ilumina fósforo amarillo, produciendo luz blanca." },
+
+{ "epigrafe": 1, "question": "Los diodos en serie en un rectificador de alta tensión permiten:", "options": ["Aumentar la capacidad de corriente", "Repartir la tensión inversa entre ellos", "Reducir la caída de tensión directa"], "answer": 1, "explanation": "Conectando diodos en serie se logra soportar mayores tensiones inversas, repartidas entre las uniones." },
+
+{ "epigrafe": 1, "question": "La función principal de un diodo en un circuito de protección es:", "options": ["Actuar como resistencia variable", "Bloquear sobretensiones o polaridades incorrectas", "Filtrar señales de alta frecuencia"], "answer": 1, "explanation": "Los diodos de protección bloquean sobretensiones y evitan daños por polaridad inversa." },
+
+{ "epigrafe": 1, "question": "En un diodo varactor, al aumentar la tensión inversa:", "options": ["La capacitancia disminuye", "La capacitancia aumenta", "El diodo entra en ruptura"], "answer": 0, "explanation": "La capacitancia de un varactor es inversamente proporcional al voltaje inverso aplicado." },
+
+{ "epigrafe": 1, "question": "El símbolo eléctrico de un Zener se diferencia del diodo normal porque:", "options": ["La línea del cátodo es recta", "La línea del cátodo está doblada", "La flecha apunta en sentido contrario"], "answer": 1, "explanation": "El símbolo del Zener se distingue porque el cátodo se dibuja con una línea en forma de ángulo." },
+
+{ "epigrafe": 1, "question": "El uso principal de un diodo en paralelo con una bobina es:", "options": ["Evitar corrientes inversas inducidas", "Rectificar la señal de entrada", "Aumentar la frecuencia de resonancia"], "answer": 0, "explanation": "El diodo en paralelo con una bobina actúa como 'flyback diode', absorbiendo corrientes inversas al desconectarse la bobina." },
+
+{ "epigrafe": 1, "question": "En una prueba de diodo con óhmetro digital, la lectura típica en directa es:", "options": ["Cientos de ohmios", "0,7 V en modo prueba de diodos", "Infinito"], "answer": 1, "explanation": "La mayoría de multímetros muestran directamente la caída de tensión en directa, que para silicio ronda los 0,7 V." },
+
+{ "epigrafe": 1, "question": "Los diodos emisores de infrarrojo se utilizan habitualmente en:", "options": ["Telecomandos y sensores", "Rectificación de potencia", "Filtros de señal"], "answer": 0, "explanation": "Los LED infrarrojos son empleados en mandos a distancia, barreras ópticas y sistemas de detección." },
+
+{ "epigrafe": 1, "question": "La principal diferencia entre un diodo de germanio y uno de silicio es:", "options": ["La polarización inversa soportada", "La tensión umbral de conducción", "La forma del encapsulado"], "answer": 1, "explanation": "El germanio conduce con unos 0,3 V, mientras que el silicio requiere alrededor de 0,7 V para conducir en directa." },
+
+{ "epigrafe": 1, "question": "El diodo que se comporta como un condensador variable es:", "options": ["Zener", "Varactor", "Schottky"], "answer": 1, "explanation": "El varactor o varicap actúa como un condensador cuya capacitancia depende del voltaje inverso aplicado." },
+
+{ "epigrafe": 1, "question": "En un rectificador de onda completa en puente, el voltaje de salida pulsante tiene:", "options": ["Un valor promedio mayor que el de media onda", "Un valor promedio menor que el de media onda", "El mismo valor promedio que el de media onda"], "answer": 0, "explanation": "El rectificador en puente aprovecha ambos semiciclos, aumentando el valor medio de la salida." },
+
+{ "epigrafe": 1, "question": "El diodo más adecuado para detectar señales de radiofrecuencia débiles es:", "options": ["Diodo de señal", "Zener", "Rectificador de potencia"], "answer": 0, "explanation": "Los diodos de señal se emplean en detección de señales de pequeña amplitud en radiofrecuencia." },
+
+{ "epigrafe": 1, "question": "El efecto de un diodo en paralelo con una carga resistiva bajo AC es:", "options": ["Reducir la potencia consumida", "Rectificar la señal", "Aumentar la tensión aplicada"], "answer": 1, "explanation": "Un diodo en paralelo con una carga rectifica la señal alterna que recibe la carga." },
+
+{ "epigrafe": 1, "question": "El diodo que tiene la menor caída de tensión directa es:", "options": ["Silicio", "Germanio", "Schottky"], "answer": 2, "explanation": "El Schottky tiene la menor caída, de 0,15 a 0,3 V, frente a 0,3 V del germanio y 0,7 V del silicio." },
+
+{ "epigrafe": 1, "question": "Un rectificador de media onda produce una salida:", "options": ["Con frecuencia doble a la de entrada", "Pulsante con la misma frecuencia que la entrada", "Constante sin necesidad de filtrado"], "answer": 1, "explanation": "La media onda conserva la misma frecuencia que la señal AC original, pero en forma pulsante." },
+
+{ "epigrafe": 1, "question": "Los diodos emisores de luz ultravioleta se emplean en:", "options": ["Iluminación de cabinas", "Esterilización y sensores", "Rectificación de alta potencia"], "answer": 1, "explanation": "Los LED UV se usan en esterilización, fotolitografía y detección." },
+
+{ "epigrafe": 1, "question": "El encapsulado DIP no se usa en diodos, pero sí en:", "options": ["Transistores discretos", "Circuitos integrados", "Resistencias"], "answer": 1, "explanation": "El encapsulado DIP (Dual In-line Package) se emplea en circuitos integrados, no en diodos." },
+
+{ "epigrafe": 1, "question": "La corriente máxima de irrupción (surge current) en un diodo es:", "options": ["La que puede soportar en pulsos cortos no repetitivos", "La corriente continua máxima", "La corriente inversa de fuga"], "answer": 0, "explanation": "El surge current es la máxima corriente permitida en pulsos transitorios de corta duración." },
+
+{ "epigrafe": 1, "question": "El símbolo de un diodo Zener se representa con:", "options": ["Una flecha con dos líneas curvas en el cátodo", "Una flecha con cátodo recto", "Dos flechas opuestas en paralelo"], "answer": 0, "explanation": "El diodo Zener se dibuja con una línea en el cátodo que presenta forma quebrada o curva." },
+
+{ "epigrafe": 1, "question": "En un diodo, el tiempo de recuperación inversa bajo frecuencias altas puede provocar:", "options": ["Sobrecalentamiento y pérdidas", "Disminución de la tensión de ruptura", "Incremento de la eficiencia"], "answer": 0, "explanation": "Un TRR alto genera pérdidas por conducción inversa temporal y calentamiento." },
+
+{ "epigrafe": 1, "question": "La principal ventaja de los diodos LED frente a los láseres es:", "options": ["Mayor coherencia", "Menor coste y simplicidad", "Mayor alcance"], "answer": 1, "explanation": "Los LED son más baratos, duraderos y fáciles de usar que los diodos láser, aunque menos potentes." },
+
+{ "epigrafe": 1, "question": "Un diodo en paralelo con un relé se utiliza para:", "options": ["Evitar sobretensiones al desconectar la bobina", "Reducir la corriente nominal", "Disminuir la frecuencia de conmutación"], "answer": 0, "explanation": "El diodo de rueda libre protege contra sobretensiones inducidas por la bobina al desconectarse." },
+
+{ "epigrafe": 1, "question": "El diodo varistor se emplea principalmente para:", "options": ["Rectificación de señal", "Protección contra picos de tensión", "Conversión de frecuencia"], "answer": 1, "explanation": "El varistor actúa como protección contra sobretensiones transitorias." },
+
+{ "epigrafe": 1, "question": "El uso de un diodo en un regulador de tensión es:", "options": ["Aumentar la corriente máxima disponible", "Mantener estable una tensión determinada", "Convertir DC en AC"], "answer": 1, "explanation": "El diodo Zener se emplea como referencia para estabilizar una tensión en los reguladores." },
+
+{ "epigrafe": 1, "question": "El símbolo de un LED incluye flechas que representan:", "options": ["La dirección de la corriente", "La emisión de fotones", "La absorción de energía"], "answer": 1, "explanation": "Las flechas que salen del LED simbolizan la emisión de luz." },
+
+{ "epigrafe": 1, "question": "El término 'minority carriers' en un semiconductor hace referencia a:", "options": ["Portadores mayoritarios de carga", "Portadores minoritarios como huecos en material N o electrones en material P", "Electrones libres en conductores metálicos"], "answer": 1, "explanation": "Los portadores minoritarios son huecos en material N y electrones en material P." },
+
+{ "epigrafe": 1, "question": "El diodo que se emplea como detector de luz visible es:", "options": ["Zener", "Fotodiodo", "Schottky"], "answer": 1, "explanation": "El fotodiodo detecta radiación luminosa convirtiéndola en corriente eléctrica." },
+
+{ "epigrafe": 1, "question": "En una unión PN polarizada directamente, la zona de agotamiento:", "options": ["Se ensancha", "Se estrecha", "Se mantiene constante"], "answer": 1, "explanation": "Al aplicar polarización directa, la barrera de potencial disminuye y la zona de agotamiento se reduce." },
+
+{ "epigrafe": 1, "question": "En una unión PN polarizada inversamente, la zona de agotamiento:", "options": ["Se ensancha", "Se estrecha", "Desaparece"], "answer": 0, "explanation": "La polarización inversa aumenta la barrera de potencial y ensancha la zona de agotamiento." },
+
+{ "epigrafe": 1, "question": "Un diodo Zener se utiliza en polarización inversa porque:", "options": ["Se comporta como un condensador", "Permite mantener una tensión constante en ruptura controlada", "Conduce en directa con menos caída de tensión que el silicio"], "answer": 1, "explanation": "El diodo Zener está diseñado para trabajar en su región de ruptura inversa, manteniendo estable la tensión Zener." },
+
+{ "epigrafe": 1, "question": "El valor de la corriente máxima que puede circular en un diodo en directa sin dañarlo se denomina:", "options": ["Corriente de fuga", "Corriente media directa máxima", "Corriente de avalancha"], "answer": 1, "explanation": "La corriente media directa máxima (IF(av)) es el límite seguro de corriente en conducción directa." },
+
+{ "epigrafe": 1, "question": "Los LED azules y blancos requieren:", "options": ["Tensiones directas mayores que los LED rojos y verdes", "Tensiones directas menores que los LED infrarrojos", "La misma tensión que un diodo de silicio"], "answer": 0, "explanation": "Los LED azules y blancos necesitan entre 2,5 y 3,5 V, más que los LED rojos o infrarrojos." },
+
+{ "epigrafe": 1, "question": "El fenómeno de 'avalanche breakdown' en un diodo convencional produce:", "options": ["Un funcionamiento estable", "Una destrucción del dispositivo", "Una reducción de la caída de tensión"], "answer": 1, "explanation": "La ruptura por avalancha en un diodo no diseñado para soportarla causa daños permanentes." },
+
+{ "epigrafe": 1, "question": "El símbolo de un varactor incluye:", "options": ["Dos flechas hacia fuera", "Un diodo con placas de condensador", "Una línea quebrada en el cátodo"], "answer": 1, "explanation": "El varactor se representa como un diodo con líneas que indican la función de capacitor variable." },
+
+{ "epigrafe": 1, "question": "El parámetro TRR de un diodo es crítico en:", "options": ["Aplicaciones de baja frecuencia", "Conmutación de alta frecuencia", "Circuitos de iluminación"], "answer": 1, "explanation": "En alta frecuencia, un tiempo de recuperación inversa alto genera pérdidas y reduce la eficiencia." },
+
+{ "epigrafe": 1, "question": "Un diodo conectado en inversa en paralelo a un motor DC sirve para:", "options": ["Aumentar la velocidad del motor", "Proteger contra picos de tensión al desconectar", "Rectificar la señal de alimentación"], "answer": 1, "explanation": "El diodo de rueda libre absorbe los picos de tensión generados por la inductancia al apagar el motor." },
+
+{ "epigrafe": 1, "question": "En una unión PN sin polarización externa, la zona de agotamiento se mantiene porque:", "options": ["Existen portadores mayoritarios libres", "Los iones fijos generan un campo eléctrico de equilibrio", "La corriente inversa compensa la directa"], "answer": 1, "explanation": "El equilibrio entre difusión y campo eléctrico crea una barrera estable en la zona de agotamiento." },
+
+{ "epigrafe": 1, "question": "El diodo que funciona como limitador de tensión en un circuito de protección es:", "options": ["Zener", "Schottky", "Varistor"], "answer": 0, "explanation": "El diodo Zener limita la tensión aplicando su valor de ruptura estable." },
+
+{ "epigrafe": 1, "question": "Un rectificador en puente necesita:", "options": ["Un transformador con toma central", "Cuatro diodos", "Dos diodos en paralelo"], "answer": 1, "explanation": "El puente rectificador clásico se construye con cuatro diodos." },
+
+{ "epigrafe": 1, "question": "La principal desventaja de los diodos Schottky es:", "options": ["Mayor tiempo de recuperación inversa", "Baja tensión inversa soportada", "Exceso de disipación térmica"], "answer": 1, "explanation": "Los Schottky no soportan tensiones inversas altas, aunque son muy rápidos." },
+
+{ "epigrafe": 1, "question": "La caída de tensión en un LED depende de:", "options": ["El color de emisión", "La resistencia en serie", "El tamaño del encapsulado"], "answer": 0, "explanation": "Cada color corresponde a un material con distinta energía de banda prohibida, determinando la tensión directa." },
+
+{ "epigrafe": 1, "question": "El rectificador de onda completa con toma central utiliza:", "options": ["Un diodo", "Dos diodos", "Cuatro diodos"], "answer": 1, "explanation": "Con un transformador de toma central se usan dos diodos para rectificar ambos semiciclos." },
+
+{ "epigrafe": 1, "question": "Los diodos de germanio son más adecuados que los de silicio en:", "options": ["Altas tensiones", "Aplicaciones de baja tensión y detección de señales débiles", "Corrientes muy elevadas"], "answer": 1, "explanation": "Por su baja caída de tensión, los germanio son usados en detección de señales pequeñas." },
+
+{ "epigrafe": 1, "question": "El símbolo de un fotodiodo incluye flechas que:", "options": ["Entran en el dispositivo", "Salen del dispositivo", "Apuntan en ambas direcciones"], "answer": 0, "explanation": "En el símbolo, las flechas apuntan hacia el diodo indicando la incidencia de luz." },
+
+{ "epigrafe": 1, "question": "Un diodo varistor presenta:", "options": ["Resistencia elevada a baja tensión y baja resistencia a alta tensión", "Resistencia constante en cualquier condición", "Capacitancia variable con la polarización"], "answer": 0, "explanation": "El varistor se comporta como aislante a bajas tensiones y como conductor a tensiones elevadas." },
+
+{ "epigrafe": 1, "question": "La corriente inversa en un diodo aumenta principalmente por:", "options": ["El aumento de temperatura", "La disminución de la frecuencia", "La reducción de la capacitancia"], "answer": 0, "explanation": "El calor genera más portadores minoritarios, incrementando la corriente de fuga inversa." },
+
+{ "epigrafe": 1, "question": "El diodo empleado en detectores de RF de baja potencia suele ser:", "options": ["Schottky", "Zener", "Rectificador de potencia"], "answer": 0, "explanation": "Los Schottky, por su baja caída de tensión y rapidez, se usan en detección de señales RF." },
+
+{ "epigrafe": 1, "question": "Un LED infrarrojo tiene una tensión directa típica de:", "options": ["1,2 V", "0,3 V", "3,5 V"], "answer": 0, "explanation": "Los LED infrarrojos funcionan normalmente con tensiones de 1,1 a 1,3 V en directa." },
+
+{ "epigrafe": 1, "question": "El principal mecanismo de conducción en un material tipo P es:", "options": ["Electrones libres", "Huecos", "Iones positivos"], "answer": 1, "explanation": "En un semiconductor tipo P, los portadores mayoritarios son los huecos." },
+
+{ "epigrafe": 1, "question": "El efecto túnel que se aprovecha en algunos diodos especiales se debe a:", "options": ["La recombinación radiativa de electrones y huecos", "La conducción por saltos cuánticos a través de la barrera de potencial", "El aumento de portadores minoritarios a alta temperatura"], "answer": 1, "explanation": "El diodo túnel permite la conducción gracias al efecto túnel cuántico, incluso con polarización directa baja." },
+
+{ "epigrafe": 1, "question": "El coeficiente de temperatura de un diodo Zener varía en función de:", "options": ["La corriente directa máxima", "El valor de la tensión Zener", "El tipo de encapsulado utilizado"], "answer": 1, "explanation": "Los diodos Zener de baja tensión tienen coeficiente negativo, mientras que los de mayor tensión presentan coeficiente positivo." },
+
+{ "epigrafe": 1, "question": "En un rectificador de onda completa en puente, la caída total de tensión directa es:", "options": ["0,7 V", "1,4 V", "2,1 V"], "answer": 1, "explanation": "En cada semiciclo conducen dos diodos en serie, lo que implica una caída de tensión de unos 1,4 V en silicio." },
+
+{ "epigrafe": 1, "question": "El parámetro IFSM en un diodo especifica:", "options": ["La corriente máxima repetitiva", "La corriente de sobrecarga de un solo ciclo de duración", "La corriente de fuga en inversa"], "answer": 1, "explanation": "IFSM (Forward Surge Current) indica la corriente máxima permitida en un solo pulso no repetitivo." },
+
+{ "epigrafe": 1, "question": "La corriente de fuga inversa en un diodo se mide con:", "options": ["Polarización directa", "Polarización inversa", "Sin tensión aplicada"], "answer": 1, "explanation": "La corriente de fuga se determina aplicando polarización inversa al diodo." },
+
+{ "epigrafe": 1, "question": "El diodo LED es más eficiente que una bombilla incandescente porque:", "options": ["Convierte más energía en luz y menos en calor", "Soporta más corriente directa", "Emite luz en todas direcciones"], "answer": 0, "explanation": "La eficiencia de un LED es mayor ya que la mayoría de la energía se transforma en luz, no en calor." },
+
+{ "epigrafe": 1, "question": "El diodo Gunn se emplea principalmente en:", "options": ["Osciladores de microondas", "Rectificadores de potencia", "Detectores de infrarrojos"], "answer": 0, "explanation": "El diodo Gunn genera oscilaciones en la región de microondas, usado en radares y comunicaciones." },
+
+{ "epigrafe": 1, "question": "Un rectificador de media onda con carga resistiva produce una señal de salida con:", "options": ["Alto contenido armónico", "Muy bajo rizado", "Señal continua estable"], "answer": 0, "explanation": "La media onda presenta un gran contenido armónico y necesita filtrado para suavizar el rizado." },
+
+{ "epigrafe": 1, "question": "El diodo láser se diferencia del LED porque:", "options": ["Emite luz incoherente", "Produce un haz de luz coherente y direccional", "No requiere polarización directa"], "answer": 1, "explanation": "El diodo láser emite luz coherente y colimada, a diferencia de la luz difusa del LED." },
+
+{ "epigrafe": 1, "question": "Un diodo en serie con un condensador en un circuito de rectificación forma:", "options": ["Un rectificador de onda completa", "Un detector de envolvente", "Un filtro paso bajo"], "answer": 1, "explanation": "La combinación de diodo y condensador permite extraer la envolvente de una señal modulada." },
+
+{ "epigrafe": 1, "question": "El diodo PIN se utiliza en aplicaciones de:", "options": ["Rectificación de baja frecuencia", "Microondas y atenuadores de RF", "Protección de sobretensiones"], "answer": 1, "explanation": "El diodo PIN, con una capa intrínseca, se emplea en alta frecuencia y RF por su baja capacitancia." },
+
+{ "epigrafe": 1, "question": "En una unión PN polarizada directamente, los electrones:", "options": ["Aumentan su concentración en la zona P", "Se desplazan desde la región N hacia la región P", "Permanecen confinados en la región N"], "answer": 1, "explanation": "Los electrones de la región N atraviesan la barrera y se recombinan con huecos en la región P." },
+
+{ "epigrafe": 1, "question": "El parámetro VRRM en un diodo significa:", "options": ["La tensión máxima inversa repetitiva", "La corriente directa máxima", "La caída de tensión en directa"], "answer": 0, "explanation": "VRRM (Repetitive Peak Reverse Voltage) indica la máxima tensión inversa repetitiva que soporta el diodo." },
+
+{ "epigrafe": 1, "question": "Los diodos emisores de infrarrojo se utilizan en sistemas como:", "options": ["Mandos a distancia y barreras ópticas", "Rectificadores de alta tensión", "Filtros paso banda"], "answer": 0, "explanation": "Los LED infrarrojos son comunes en controles remotos y sensores de proximidad." },
+
+{ "epigrafe": 1, "question": "El comportamiento de un diodo en polarización inversa hasta el punto de ruptura es el de:", "options": ["Un aislante", "Un condensador", "Un conductor óhmico"], "answer": 0, "explanation": "En inversa, el diodo prácticamente no conduce y se comporta como un aislante hasta alcanzar la ruptura." },
+
+{ "epigrafe": 1, "question": "El símbolo del diodo Schottky se distingue porque:", "options": ["El cátodo se dibuja con una línea curva", "El ánodo se marca con doble flecha", "El cátodo tiene una línea en forma de S"], "answer": 0, "explanation": "El Schottky se representa con el cátodo modificado en forma curva para diferenciarlo del diodo normal." },
+
+{ "epigrafe": 1, "question": "El parámetro IF(peak) en un diodo representa:", "options": ["La corriente media", "La corriente máxima instantánea repetitiva", "La corriente de fuga inversa"], "answer": 1, "explanation": "IF(peak) es la corriente máxima de pico repetitiva que puede soportar un diodo sin fallar." },
+
+{ "epigrafe": 1, "question": "Un fotodiodo en modo inverso se utiliza porque:", "options": ["Aumenta su capacitancia", "La corriente generada es proporcional a la luz incidente", "Genera calor proporcional a la radiación"], "answer": 1, "explanation": "En polarización inversa, la corriente de un fotodiodo es proporcional a la intensidad lumínica." },
+
+{ "epigrafe": 1, "question": "El diodo túnel presenta una característica IV con:", "options": ["Región de resistencia negativa", "Ruptura estable en inversa", "Alta caída de tensión directa"], "answer": 0, "explanation": "El diodo túnel tiene una región de resistencia negativa que se usa en osciladores." },
+
+{ "epigrafe": 1, "question": "Un rectificador de onda completa en puente requiere un transformador:", "options": ["Con toma central obligatoria", "Sin toma central, puede conectarse directamente", "Solo con devanado doble"], "answer": 1, "explanation": "El puente de diodos no requiere transformador con toma central." },
+
+{ "epigrafe": 1, "question": "El LED verde suele tener una tensión directa típica de:", "options": ["0,7 V", "2,0 - 2,2 V", "3,3 V"], "answer": 1, "explanation": "Los LED verdes conducen entre 2,0 y 2,2 V aproximadamente." },
+
+{ "epigrafe": 1, "question": "La principal diferencia entre un LED y un fotodiodo es:", "options": ["El LED convierte luz en electricidad y el fotodiodo electricidad en luz", "El LED emite luz y el fotodiodo detecta luz", "Ambos emiten luz pero en diferente longitud de onda"], "answer": 1, "explanation": "El LED emite radiación luminosa, mientras que el fotodiodo la detecta." },
+
+{ "epigrafe": 1, "question": "El parámetro PIV en un diodo significa:", "options": ["Potencia inversa máxima", "Tensión inversa máxima de pico", "Intensidad de conducción máxima"], "answer": 1, "explanation": "PIV (Peak Inverse Voltage) es la tensión inversa máxima de pico soportada por el diodo." },
+
+{ "epigrafe": 1, "question": "La principal aplicación del diodo de avalancha es:", "options": ["Estabilización de tensión en baja potencia", "Protección contra sobretensiones", "Emisión de luz coherente"], "answer": 1, "explanation": "El diodo de avalancha se usa como supresor de picos de tensión." },
+
+{ "epigrafe": 1, "question": "La unión PN en polarización directa reduce:", "options": ["La anchura de la zona de agotamiento", "La concentración de portadores mayoritarios", "El valor de la corriente directa"], "answer": 0, "explanation": "En directa, la barrera de potencial disminuye y la zona de agotamiento se estrecha." },
+
+{ "epigrafe": 1, "question": "Los diodos emisores de luz se construyen generalmente con:", "options": ["Germanio", "Compuestos de arseniuro y fosfuro", "Óxidos metálicos"], "answer": 1, "explanation": "Los LED se fabrican con semiconductores como GaAs, GaP o InGaN, que determinan el color emitido." },
+
+{ "epigrafe": 1, "question": "Un diodo varactor se utiliza principalmente en:", "options": ["Osciladores de radiofrecuencia", "Filtros de paso bajo", "Fuentes de alimentación"], "answer": 0, "explanation": "El varactor se usa en osciladores y circuitos sintonizados de RF como capacitancia variable." },
+
+{ "epigrafe": 1, "question": "El parámetro VF en una hoja de datos de un diodo indica:", "options": ["La tensión directa típica a cierta corriente", "La corriente inversa máxima", "La tensión de ruptura"], "answer": 0, "explanation": "VF es la caída de tensión directa que aparece al conducir cierta corriente especificada." },
+
+{ "epigrafe": 1, "question": "Un rectificador de media onda tiene un rendimiento máximo teórico de:", "options": ["40,6 %", "81,2 %", "100 %"], "answer": 0, "explanation": "La eficiencia máxima de un rectificador de media onda es del 40,6 %." },
+
+{ "epigrafe": 1, "question": "La eficiencia máxima teórica de un rectificador de onda completa es:", "options": ["40,6 %", "81,2 %", "100 %"], "answer": 1, "explanation": "El rendimiento máximo de un rectificador de onda completa es del 81,2 %." },
+
+{ "epigrafe": 1, "question": "En un diodo LED, la intensidad luminosa emitida depende principalmente de:", "options": ["La corriente directa que lo atraviesa", "La tensión inversa aplicada", "El tamaño del encapsulado"], "answer": 0, "explanation": "La cantidad de luz emitida por un LED está directamente relacionada con la corriente directa que circula por él." },
+
+{ "epigrafe": 1, "question": "El fenómeno de recombinación en un semiconductor ocurre cuando:", "options": ["Un electrón se une a un hueco", "Un electrón cruza la banda prohibida", "Un hueco se desplaza en la red cristalina"], "answer": 0, "explanation": "La recombinación consiste en que un electrón de la banda de conducción se une a un hueco de la banda de valencia." },
+
+{ "epigrafe": 1, "question": "El diodo Zener se caracteriza por tener:", "options": ["Una caída de tensión directa muy baja", "Un valor de ruptura inversa muy estable", "Capacidad de emitir luz ultravioleta"], "answer": 1, "explanation": "Su principal característica es la tensión Zener estable en ruptura inversa." },
+
+{ "epigrafe": 1, "question": "El diodo LED emite luz porque:", "options": ["Se produce radiación térmica", "Los electrones al recombinarse liberan energía en forma de fotones", "Los huecos absorben radiación externa"], "answer": 1, "explanation": "La recombinación electrón-hueco en los LED genera fotones, produciendo luz." },
+
+{ "epigrafe": 1, "question": "El diodo utilizado como detector de AM en receptores de radio es:", "options": ["Zener", "De señal", "Varactor"], "answer": 1, "explanation": "Los diodos de señal se emplean en la detección de modulaciones AM debido a su baja capacitancia y rapidez." },
+
+{ "epigrafe": 1, "question": "Un diodo Schottky presenta pérdidas menores porque:", "options": ["No tiene región de almacenamiento de carga", "Funciona a temperaturas más altas", "Tiene mayor resistencia en directa"], "answer": 0, "explanation": "Al no haber recombinación de portadores, su conmutación es más rápida y con menos pérdidas." },
+
+{ "epigrafe": 1, "question": "El parámetro Cj de un diodo corresponde a:", "options": ["Su capacitancia de unión", "La caída de tensión en directa", "La corriente de pico máxima"], "answer": 0, "explanation": "Cj representa la capacitancia de la unión PN, que depende de la polarización inversa aplicada." },
+
+{ "epigrafe": 1, "question": "En un rectificador de onda completa, el rizado de la salida es:", "options": ["Mayor que en media onda", "Menor que en media onda", "Igual que en media onda"], "answer": 1, "explanation": "El rizado en onda completa es menor porque la frecuencia de salida es el doble de la de entrada." },
+
+{ "epigrafe": 1, "question": "Los diodos LED de alta potencia requieren:", "options": ["Un disipador térmico", "Una polarización inversa permanente", "Un encapsulado metálico con toma central"], "answer": 0, "explanation": "Los LED de alta potencia generan calor que debe disiparse mediante disipadores." },
+
+{ "epigrafe": 1, "question": "Un diodo que se utiliza en multiplicadores de tensión es:", "options": ["Diodo rectificador estándar", "Diodo Schottky", "Diodo láser"], "answer": 0, "explanation": "Los diodos rectificadores estándar se usan en multiplicadores de tensión combinados con condensadores." },
+
+{ "epigrafe": 1, "question": "El diodo túnel se caracteriza por:", "options": ["Poseer resistencia negativa en parte de su curva", "Soportar altas tensiones inversas", "Emitir radiación en ultravioleta"], "answer": 0, "explanation": "El diodo túnel presenta una región de resistencia negativa que se utiliza en osciladores." },
+
+{ "epigrafe": 1, "question": "El símbolo de un LED incluye:", "options": ["Dos flechas saliendo del diodo", "Dos flechas entrando al diodo", "Un círculo alrededor del diodo"], "answer": 0, "explanation": "Las flechas que salen indican la emisión de luz." },
+
+{ "epigrafe": 1, "question": "El parámetro Tj en un diodo hace referencia a:", "options": ["Tiempo de recuperación inversa", "Temperatura máxima de la unión", "Tensión de ruptura en inversa"], "answer": 1, "explanation": "Tj es la temperatura máxima admisible de la unión del diodo." },
+
+{ "epigrafe": 1, "question": "El diodo láser se usa en:", "options": ["Iluminación general", "Lectores de CD/DVD y comunicaciones ópticas", "Protección contra sobretensiones"], "answer": 1, "explanation": "Los diodos láser son esenciales en sistemas ópticos de almacenamiento y comunicaciones." },
+
+{ "epigrafe": 1, "question": "En un diodo, la resistencia dinámica en directa disminuye al:", "options": ["Aumentar la corriente", "Reducir la corriente", "Aumentar la tensión inversa"], "answer": 0, "explanation": "A mayor corriente directa, menor es la resistencia dinámica del diodo." },
+
+{ "epigrafe": 1, "question": "El parámetro IF(DC) en hojas de datos indica:", "options": ["La corriente media en continua que soporta el diodo", "La corriente de fuga inversa máxima", "La corriente de sobrecarga de un pulso"], "answer": 0, "explanation": "IF(DC) representa la corriente máxima en continua que puede circular por el diodo." },
+
+{ "epigrafe": 1, "question": "Un diodo Shockley se utiliza en:", "options": ["Circuitos de disparo de tiristores", "Filtros pasivos", "Rectificación de alta potencia"], "answer": 0, "explanation": "El diodo Shockley se usa como dispositivo de disparo en tiristores y SCR." },
+
+{ "epigrafe": 1, "question": "Un diodo LED bicolor se fabrica:", "options": ["Con dos uniones PN en paralelo", "Con dos LED diferentes en antiparalelo", "Con un solo LED con variación de corriente"], "answer": 1, "explanation": "Los LED bicolor están formados por dos LED conectados en antiparalelo dentro del mismo encapsulado." },
+
+{ "epigrafe": 1, "question": "El diodo que se utiliza como referencia de tensión en osciladores de RF es:", "options": ["Varactor", "Schottky", "Zener"], "answer": 0, "explanation": "El diodo varactor se emplea para variar la frecuencia de osciladores en RF actuando como capacitancia variable." },
+
+{ "epigrafe": 1, "question": "En polarización inversa, la anchura de la zona de agotamiento en la unión PN:", "options": ["Se reduce", "Se incrementa", "Permanece constante"], "answer": 1, "explanation": "Al aplicar tensión inversa, la barrera se ensancha y aumenta la anchura de la zona de agotamiento." },
+
+{ "epigrafe": 1, "question": "La principal aplicación de los diodos rectificadores de silicio es:", "options": ["Emisión de luz", "Conversión de AC a DC", "Detección de radiación"], "answer": 1, "explanation": "Los diodos de silicio se emplean en rectificación de corriente alterna a continua." },
+
+{ "epigrafe": 1, "question": "El diodo que se emplea en fuentes de alimentación para minimizar pérdidas es:", "options": ["Zener", "Schottky", "Varactor"], "answer": 1, "explanation": "El Schottky se usa en fuentes conmutadas porque su baja caída de tensión reduce pérdidas." },
+
+{ "epigrafe": 1, "question": "El parámetro Pd en un diodo especifica:", "options": ["La potencia máxima que puede disipar", "La potencia media de salida", "La potencia generada por recombinación"], "answer": 0, "explanation": "Pd representa la potencia máxima que el diodo puede disipar de forma segura." },
+
+{ "epigrafe": 1, "question": "Un diodo LED ultrabrillante se diferencia de uno común en:", "options": ["Su encapsulado más grande", "Su mayor eficiencia luminosa", "Su menor vida útil"], "answer": 1, "explanation": "Los LED ultrabrillantes emiten más luz por la misma corriente gracias a mejoras en el material semiconductor." },
+
+{ "epigrafe": 1, "question": "En un rectificador de onda completa, la corriente de salida tiene:", "options": ["El doble de frecuencia que la señal AC", "La misma frecuencia que la señal AC", "La mitad de frecuencia que la señal AC"], "answer": 0, "explanation": "La frecuencia de salida es el doble de la de entrada, ya que ambos semiciclos se rectifican." },
+
+{ "epigrafe": 1, "question": "El diodo que se comporta como un interruptor controlado por luz es:", "options": ["LED", "Fotodiodo", "Fototransistor"], "answer": 1, "explanation": "El fotodiodo cambia su conducción en función de la luz incidente." },
+
+{ "epigrafe": 1, "question": "Los diodos en serie en un circuito rectificador permiten:", "options": ["Soportar tensiones inversas mayores", "Reducir la caída de tensión directa", "Compartir la corriente"], "answer": 0, "explanation": "Al conectarse en serie, los diodos reparten la tensión inversa, aumentando el voltaje máximo soportado." },
+
+{ "epigrafe": 1, "question": "Un diodo de germanio presenta como ventaja:", "options": ["Mayor tensión de ruptura", "Menor tensión de conducción directa", "Mayor eficiencia térmica"], "answer": 1, "explanation": "Su tensión de conducción es de 0,3 V, menor que la del silicio (0,7 V)." },
+
+{ "epigrafe": 1, "question": "Un rectificador controlado con diodo y SCR se utiliza para:", "options": ["Regular la tensión de salida", "Disminuir la frecuencia de entrada", "Reducir la corriente inversa"], "answer": 0, "explanation": "El uso de SCR en rectificadores permite controlar y regular la tensión continua de salida." },
+
+{ "epigrafe": 1, "question": "El diodo Shockley presenta cuántas capas semiconductoras:", "options": ["Dos capas", "Tres capas", "Cuatro capas"], "answer": 2, "explanation": "El diodo Shockley tiene cuatro capas alternas P-N-P-N y fue precursor de los tiristores." },
+
+{ "epigrafe": 1, "question": "Un diodo LED RGB contiene:", "options": ["Tres chips de LED en un mismo encapsulado", "Un único LED con variación de corriente", "Un LED con fósforo para variar el color"], "answer": 0, "explanation": "El LED RGB incluye tres LED independientes (rojo, verde y azul) que permiten generar diferentes colores por mezcla." },
+
+{ "epigrafe": 1, "question": "La característica principal de un diodo de recuperación rápida es:", "options": ["Soportar mayor tensión inversa", "Tiempo de recuperación inversa muy bajo", "Mayor resistencia dinámica"], "answer": 1, "explanation": "Los diodos de recuperación rápida se emplean en circuitos de alta frecuencia para minimizar pérdidas en la conmutación." },
+
+{ "epigrafe": 1, "question": "Un diodo láser emite luz gracias a:", "options": ["Efecto fotoeléctrico", "Emisión estimulada de radiación", "Absorción de fotones"], "answer": 1, "explanation": "El diodo láser produce luz coherente mediante emisión estimulada de radiación." },
+
+{ "epigrafe": 1, "question": "El parámetro IR en hojas de datos de un diodo indica:", "options": ["La corriente en directa", "La corriente inversa de fuga", "La corriente máxima repetitiva"], "answer": 1, "explanation": "IR corresponde a la corriente de fuga medida en polarización inversa." },
+
+{ "epigrafe": 1, "question": "El diodo LED de color ámbar tiene una tensión de conducción típica de:", "options": ["1,2 V", "2,0 V", "3,5 V"], "answer": 1, "explanation": "Los LED ámbar conducen normalmente con una caída de tensión de unos 2,0 V." },
+
+{ "epigrafe": 1, "question": "Un diodo Schottky se construye a partir de la unión de:", "options": ["Metal-semiconductor", "P-N clásico", "Dos materiales intrínsecos"], "answer": 0, "explanation": "El Schottky se basa en una unión metal-semiconductor que le da su baja caída de tensión." },
+
+{ "epigrafe": 1, "question": "El parámetro tRR en un diodo especifica:", "options": ["Tiempo de recuperación inversa", "Tensión de ruptura inversa", "Tensión directa mínima"], "answer": 0, "explanation": "tRR mide cuánto tarda el diodo en pasar de conducción directa a bloqueo en inversa." },
+
+{ "epigrafe": 1, "question": "En un circuito de protección con diodo, si se invierte la polaridad de la fuente:", "options": ["El diodo bloquea el paso de corriente", "El diodo conduce y destruye la fuente", "El diodo reduce la tensión a la mitad"], "answer": 0, "explanation": "En polarización inversa, el diodo impide el paso de corriente protegiendo al circuito." },
+
+{ "epigrafe": 1, "question": "Un diodo fotovoltaico convierte:", "options": ["Luz en electricidad", "Electricidad en luz", "Calor en electricidad"], "answer": 0, "explanation": "El principio fotovoltaico aprovecha la luz incidente para generar electricidad en la unión PN." },
+
+{ "epigrafe": 1, "question": "El diodo empleado en dobladores y triplicadores de tensión es:", "options": ["Rectificador común", "Varactor", "Schottky"], "answer": 0, "explanation": "Los rectificadores comunes, combinados con condensadores, se utilizan en multiplicadores de tensión." },
+
+{ "epigrafe": 1, "question": "La unión PN en equilibrio térmico se mantiene gracias a:", "options": ["El movimiento constante de portadores", "La compensación entre difusión y campo eléctrico interno", "La carga estática de los electrodos"], "answer": 1, "explanation": "Se forma una barrera de potencial que equilibra la difusión y el campo eléctrico." },
+
+{ "epigrafe": 1, "question": "En un rectificador con condensador de filtrado, el rizado disminuye al:", "options": ["Aumentar el valor del condensador", "Reducir la carga resistiva", "Disminuir la frecuencia de entrada"], "answer": 0, "explanation": "Un condensador de mayor capacidad reduce las variaciones de voltaje entre semiciclos." },
+
+{ "epigrafe": 1, "question": "El parámetro VR en un diodo hace referencia a:", "options": ["Voltaje inverso aplicado", "Voltaje directo a corriente nominal", "Voltaje de ruptura"], "answer": 0, "explanation": "VR se refiere al voltaje aplicado en polarización inversa durante la caracterización del diodo." },
+
+{ "epigrafe": 1, "question": "El diodo LED emite en un rango de espectro determinado por:", "options": ["La dopación del material semiconductor", "El tamaño del encapsulado", "El voltaje de polarización"], "answer": 0, "explanation": "Los materiales semiconductores empleados en su fabricación determinan la longitud de onda y color de la luz emitida." },
+
+{ "epigrafe": 1, "question": "En un puente de Graetz, la frecuencia del rizado en la salida es:", "options": ["Igual a la frecuencia de entrada", "El doble de la frecuencia de entrada", "La mitad de la frecuencia de entrada"], "answer": 1, "explanation": "El puente rectificador aprovecha ambos semiciclos, duplicando la frecuencia de la señal rectificada." },
+
+{ "epigrafe": 1, "question": "Un diodo de avalancha se emplea en:", "options": ["Circuitos de conmutación lenta", "Protección frente a sobretensiones transitorias", "Emisión de luz coherente"], "answer": 1, "explanation": "El diodo de avalancha absorbe picos de tensión protegiendo los circuitos." },
+
+{ "epigrafe": 1, "question": "El LED blanco generalmente se fabrica a partir de:", "options": ["Un LED azul y fósforo amarillo", "Un LED rojo de alta intensidad", "Un LED verde con fósforo"], "answer": 0, "explanation": "El LED blanco se obtiene combinando un LED azul con fósforo que convierte parte de la radiación a amarillo." },
+
+{ "epigrafe": 1, "question": "El valor típico de la caída de tensión en un diodo de germanio en directa es:", "options": ["0,3 V", "0,7 V", "1,1 V"], "answer": 0, "explanation": "Los diodos de germanio conducen a partir de unos 0,3 V." },
+
+{ "epigrafe": 1, "question": "La vida útil de un LED se mide en:", "options": ["Horas de conducción continua", "Número de ciclos de encendido y apagado", "Horas hasta que la intensidad luminosa cae a un porcentaje del valor inicial"], "answer": 2, "explanation": "La vida útil de un LED se define como el tiempo hasta que su flujo luminoso disminuye a un porcentaje (generalmente 70%) del inicial." },
+
+{ "epigrafe": 1, "question": "El símbolo de un transistor NPN se distingue porque:", "options": ["La flecha en el emisor apunta hacia fuera", "La flecha en el emisor apunta hacia dentro", "No tiene flecha en el emisor"], "answer": 0, "explanation": "En el símbolo NPN, la flecha del emisor apunta hacia fuera indicando la salida de corriente convencional." },
+
+{ "epigrafe": 1, "question": "El símbolo de un transistor PNP se caracteriza porque:", "options": ["La flecha en el emisor apunta hacia dentro", "La flecha en el emisor apunta hacia fuera", "No incluye flecha en el emisor"], "answer": 0, "explanation": "En el transistor PNP, la flecha del emisor apunta hacia dentro, indicando la dirección de la corriente convencional." },
+
+{ "epigrafe": 1, "question": "En un transistor bipolar, las tres terminales son:", "options": ["Emisor, colector y base", "Ánodo, cátodo y puerta", "Drenador, fuente y compuerta"], "answer": 0, "explanation": "El transistor BJT está formado por emisor, colector y base." },
+
+{ "epigrafe": 1, "question": "La ganancia de corriente de un transistor BJT se designa como:", "options": ["β (beta)", "α (alfa)", "hFE"], "answer": 0, "explanation": "La ganancia de corriente en un BJT se denota como β o hFE, relación entre corriente de colector y de base." },
+
+{ "epigrafe": 1, "question": "En un transistor NPN en modo activo, la unión base-emisor está:", "options": ["Polarizada directa", "Polarizada inversa", "En equilibrio"], "answer": 0, "explanation": "Para que el transistor NPN conduzca en modo activo, la base-emisor debe estar en directa y la base-colector en inversa." },
+
+{ "epigrafe": 1, "question": "En un transistor PNP en modo activo, la unión base-emisor está:", "options": ["Polarizada directa", "Polarizada inversa", "En equilibrio"], "answer": 0, "explanation": "En PNP, la unión base-emisor también debe estar polarizada directa para entrar en conducción." },
+
+{ "epigrafe": 1, "question": "Un transistor en configuración emisor común se utiliza porque:", "options": ["Ofrece alta ganancia de corriente y de tensión", "Proporciona aislamiento galvánico", "Funciona como fuente de corriente constante"], "answer": 0, "explanation": "La configuración de emisor común da ganancia en tensión y corriente, siendo la más usada en amplificación." },
+
+{ "epigrafe": 1, "question": "El transistor en configuración colector común también se llama:", "options": ["Seguidor de emisor", "Inversor de corriente", "Amplificador de potencia"], "answer": 0, "explanation": "El colector común recibe el nombre de seguidor de emisor porque su tensión de salida sigue a la de entrada con ganancia de corriente." },
+
+{ "epigrafe": 1, "question": "El transistor en corte se caracteriza porque:", "options": ["No circula corriente de colector", "Circula corriente máxima de colector", "Se comporta como resistencia baja"], "answer": 0, "explanation": "En la región de corte no circula corriente de colector, el transistor está apagado." },
+
+{ "epigrafe": 1, "question": "El transistor en saturación se comporta como:", "options": ["Una resistencia muy baja entre colector y emisor", "Una resistencia infinita", "Un condensador cargado"], "answer": 0, "explanation": "En saturación, el transistor conduce casi completamente, actuando como un interruptor cerrado." },
+
+{ "epigrafe": 1, "question": "La corriente de base en un transistor controla:", "options": ["La corriente de colector", "La tensión de colector", "La capacitancia de la unión"], "answer": 0, "explanation": "La corriente de base controla la corriente de colector multiplicada por el factor de ganancia β." },
+
+{ "epigrafe": 1, "question": "La relación típica entre corriente de colector y de base es:", "options": ["1:1", "100:1", "1000:1"], "answer": 1, "explanation": "En un transistor típico, la ganancia β es de unas 100 veces la corriente de base." },
+
+{ "epigrafe": 1, "question": "En un transistor NPN, la flecha en el emisor representa:", "options": ["La dirección de flujo de electrones", "La dirección de corriente convencional", "La polaridad del colector"], "answer": 1, "explanation": "La flecha del emisor indica la corriente convencional saliendo en un NPN." },
+
+{ "epigrafe": 1, "question": "El transistor MOSFET se diferencia del BJT porque:", "options": ["Es controlado por tensión en la compuerta", "Es controlado por corriente en la base", "No tiene unión semiconductor"], "answer": 0, "explanation": "El MOSFET es un transistor de efecto de campo controlado por tensión en la compuerta." },
+
+{ "epigrafe": 1, "question": "En un transistor BJT, la corriente de emisor es:", "options": ["Igual a la de base", "Igual a la de colector más base", "Independiente de colector y base"], "answer": 1, "explanation": "La corriente de emisor es la suma de las corrientes de colector y base." },
+
+{ "epigrafe": 1, "question": "Un transistor Darlington consiste en:", "options": ["Dos transistores conectados en cascada", "Un transistor y un diodo en paralelo", "Dos transistores en serie en el colector"], "answer": 0, "explanation": "La configuración Darlington utiliza dos transistores en cascada para obtener alta ganancia de corriente." },
+
+{ "epigrafe": 1, "question": "En un transistor en región activa, la unión base-colector está:", "options": ["Polarizada directa", "Polarizada inversa", "En equilibrio"], "answer": 1, "explanation": "En la región activa, la base-colector está en inversa, mientras la base-emisor en directa." },
+
+{ "epigrafe": 1, "question": "La disipación máxima de un transistor se especifica en:", "options": ["Corriente", "Potencia", "Voltaje"], "answer": 1, "explanation": "Se indica como potencia máxima que el transistor puede disipar sin dañarse." },
+
+{ "epigrafe": 1, "question": "Un transistor en modo saturación se emplea en:", "options": ["Amplificadores lineales", "Interruptores digitales", "Osciladores de RF"], "answer": 1, "explanation": "En saturación, el transistor se comporta como interruptor cerrado, útil en circuitos digitales." },
+
+{ "epigrafe": 1, "question": "La zona de operación segura (SOA) de un transistor define:", "options": ["El rango de tensión y corriente en el que puede trabajar sin dañarse", "El límite máximo de frecuencia", "La ganancia mínima"], "answer": 0, "explanation": "La SOA establece las combinaciones de tensión y corriente que el transistor puede soportar sin fallo." },
+
+{ "epigrafe": 1, "question": "Un transistor en configuración base común se caracteriza por:", "options": ["Alta impedancia de entrada y alta de salida", "Baja impedancia de entrada y alta de salida", "Alta impedancia de entrada y baja de salida"], "answer": 1, "explanation": "La configuración de base común presenta baja impedancia de entrada y alta de salida, siendo usada en aplicaciones de RF." },
+
+{ "epigrafe": 1, "question": "El transistor en configuración emisor común invierte:", "options": ["Solo la amplitud de la señal", "La fase de la señal", "La impedancia de entrada"], "answer": 1, "explanation": "El emisor común produce una inversión de fase de 180° entre la entrada y la salida." },
+
+{ "epigrafe": 1, "question": "La región activa de un transistor es utilizada principalmente en:", "options": ["Conmutación digital", "Amplificación lineal", "Protección contra sobretensiones"], "answer": 1, "explanation": "En la región activa, el transistor actúa como amplificador lineal." },
+
+{ "epigrafe": 1, "question": "La hFE de un transistor depende de:", "options": ["La temperatura y la corriente de colector", "El encapsulado", "La polaridad de la fuente de alimentación"], "answer": 0, "explanation": "El valor de ganancia hFE varía con la temperatura y la corriente de colector aplicada." },
+
+{ "epigrafe": 1, "question": "En un transistor Darlington, la ganancia de corriente total es:", "options": ["La suma de las ganancias individuales", "El producto de las ganancias individuales", "Independiente de las ganancias individuales"], "answer": 1, "explanation": "La ganancia de un Darlington es el producto de las ganancias β de ambos transistores." },
+
+{ "epigrafe": 1, "question": "Un transistor en saturación tiene la tensión VCE aproximada de:", "options": ["0,2 V", "0,7 V", "1,5 V"], "answer": 0, "explanation": "En saturación, la tensión colector-emisor es muy baja, típicamente 0,2 V." },
+
+{ "epigrafe": 1, "question": "El transistor de efecto de campo (FET) se diferencia del BJT porque:", "options": ["Es controlado por corriente", "Es controlado por tensión", "No depende de portadores de carga"], "answer": 1, "explanation": "El FET se controla por tensión en la compuerta, a diferencia del BJT que se controla por corriente de base." },
+
+{ "epigrafe": 1, "question": "El MOSFET de canal N conduce cuando:", "options": ["La compuerta está a un potencial positivo respecto a la fuente", "La compuerta está a un potencial negativo respecto al drenador", "Se conecta directamente a tierra"], "answer": 0, "explanation": "El MOSFET de canal N requiere tensión positiva en la compuerta para crear el canal de conducción." },
+
+{ "epigrafe": 1, "question": "En un MOSFET, la impedancia de entrada es:", "options": ["Muy baja", "Muy alta", "Nula"], "answer": 1, "explanation": "El MOSFET presenta una impedancia de entrada extremadamente alta debido al aislamiento de óxido en la compuerta." },
+
+{ "epigrafe": 1, "question": "El efecto Early en un transistor BJT provoca:", "options": ["Una variación de la corriente de colector con la tensión colector-emisor", "Una reducción de la ganancia hFE con temperatura", "Un aumento de la resistencia de base"], "answer": 0, "explanation": "El efecto Early describe cómo la corriente de colector depende ligeramente de VCE debido a la modulación de la base." },
+
+{ "epigrafe": 1, "question": "Un transistor en modo corte se comporta como:", "options": ["Un interruptor abierto", "Un interruptor cerrado", "Un generador de corriente"], "answer": 0, "explanation": "En corte, el transistor no conduce y equivale a un interruptor abierto." },
+
+{ "epigrafe": 1, "question": "El transistor JFET se diferencia del MOSFET en que:", "options": ["La compuerta está unida a una unión PN", "Tiene aislamiento de óxido", "Se controla por corriente de base"], "answer": 0, "explanation": "El JFET se controla mediante una unión PN polarizada inversamente en la compuerta." },
+
+{ "epigrafe": 1, "question": "Un transistor NPN en saturación conduce:", "options": ["Corriente máxima del colector a emisor", "Corriente mínima del colector", "Corriente alterna solamente"], "answer": 0, "explanation": "En saturación, el NPN permite la máxima corriente colector-emisor." },
+
+{ "epigrafe": 1, "question": "La potencia máxima que disipa un transistor depende de:", "options": ["La corriente de base", "La tensión de colector-emisor y la corriente de colector", "La frecuencia de la señal"], "answer": 1, "explanation": "La potencia disipada es el producto de VCE por IC." },
+
+{ "epigrafe": 1, "question": "Un transistor con ganancia hFE = 200 y una corriente de base de 10 mA entregará una corriente de colector de:", "options": ["0,2 A", "2 A", "20 A"], "answer": 1, "explanation": "IC = β·IB = 200 × 0,01 A = 2 A." },
+
+{ "epigrafe": 1, "question": "En un transistor, el punto de polarización Q determina:", "options": ["La tensión de ruptura", "La zona de operación en la curva característica", "La capacitancia de la unión"], "answer": 1, "explanation": "El punto Q fija la región de operación estable en la característica del transistor." },
+
+{ "epigrafe": 1, "question": "El transistor en configuración colector común tiene como principal ventaja:", "options": ["Alta ganancia de tensión", "Impedancia de salida muy baja", "Ganancia de corriente nula"], "answer": 1, "explanation": "La configuración colector común ofrece baja impedancia de salida, útil como adaptador de impedancias." },
+
+{ "epigrafe": 1, "question": "La relación α en un transistor BJT es:", "options": ["IC/IE", "IB/IC", "VCE/IB"], "answer": 0, "explanation": "El parámetro α se define como la relación entre la corriente de colector y la de emisor (IC/IE)." },
+
+{ "epigrafe": 1, "question": "El valor de α en un transistor bipolar suele ser:", "options": ["Muy bajo, cercano a 0,1", "Cercano a 1", "Superior a 10"], "answer": 1, "explanation": "El valor de α suele estar entre 0,95 y 0,99 en transistores bipolares." },
+
+{ "epigrafe": 1, "question": "Un transistor en corte y saturación funciona como:", "options": ["Amplificador", "Interruptor digital", "Filtro de señal"], "answer": 1, "explanation": "Usando corte y saturación, el transistor actúa como un interruptor en circuitos digitales." },
+
+{ "epigrafe": 1, "question": "El transistor NPN entra en conducción cuando:", "options": ["La base está a un potencial más alto que el emisor", "La base está a un potencial más bajo que el emisor", "El colector está a tierra"], "answer": 0, "explanation": "En NPN, la base debe estar a un potencial positivo respecto al emisor para polarizar la unión base-emisor en directa." },
+
+{ "epigrafe": 1, "question": "En un transistor PNP, la corriente convencional fluye:", "options": ["Del emisor a la base", "De la base al colector", "Del colector al emisor"], "answer": 0, "explanation": "En PNP, la corriente convencional fluye desde el emisor hacia la base cuando se polariza en directa." },
+
+{ "epigrafe": 1, "question": "La región de corte en un transistor significa que:", "options": ["IB = 0 y no circula IC", "IC es máxima", "La unión base-colector está en directa"], "answer": 0, "explanation": "En corte, la base no recibe corriente y el colector prácticamente no conduce." },
+
+{ "epigrafe": 1, "question": "El parámetro VCE(sat) indica:", "options": ["La tensión máxima de colector-emisor", "La tensión colector-emisor en saturación", "La tensión de ruptura"], "answer": 1, "explanation": "VCE(sat) es la caída de tensión entre colector y emisor cuando el transistor está saturado." },
+
+{ "epigrafe": 1, "question": "La función principal de la base en un transistor BJT es:", "options": ["Controlar el flujo de corriente entre emisor y colector", "Almacenar carga eléctrica", "Reducir la capacitancia del dispositivo"], "answer": 0, "explanation": "La base actúa como región de control, regulando el paso de corriente del emisor al colector." },
+
+{ "epigrafe": 1, "question": "Un transistor de efecto de campo se diferencia de un BJT porque:", "options": ["Es un dispositivo de portadores mayoritarios", "Se controla mediante corriente de compuerta", "Tiene tres uniones PN"], "answer": 0, "explanation": "El FET trabaja con portadores mayoritarios, mientras que el BJT utiliza tanto mayoritarios como minoritarios." },
+
+{ "epigrafe": 1, "question": "La ganancia de tensión en un transistor en emisor común es:", "options": ["Muy baja", "Moderada a alta", "Inexistente"], "answer": 1, "explanation": "La configuración en emisor común proporciona una ganancia de tensión apreciable, usada en amplificadores." },
+
+{ "epigrafe": 1, "question": "La resistencia de entrada de un transistor en base común es:", "options": ["Muy baja", "Muy alta", "Intermedia"], "answer": 0, "explanation": "La configuración en base común tiene resistencia de entrada baja, característica de aplicaciones en RF." },
+
+{ "epigrafe": 1, "question": "En un transistor BJT, si la corriente de base aumenta:", "options": ["La corriente de colector disminuye", "La corriente de colector aumenta", "La corriente de colector no cambia"], "answer": 1, "explanation": "La corriente de colector es proporcional a la de base multiplicada por β." },
+
+{ "epigrafe": 1, "question": "Un transistor en modo lineal se utiliza en:", "options": ["Amplificación de señales analógicas", "Conmutación digital", "Filtros LC"], "answer": 0, "explanation": "En modo lineal, el transistor amplifica señales analógicas como en audio y RF." },
+
+{ "epigrafe": 1, "question": "El encapsulado DIP se caracteriza por:", "options": ["Dos filas paralelas de pines", "Un solo pin central", "Terminales en forma de espiral"], "answer": 0, "explanation": "El Dual In-line Package (DIP) tiene dos hileras de pines enfrentados." },
+
+{ "epigrafe": 1, "question": "Una de las principales ventajas del encapsulado DIP es:", "options": ["Facilidad de inserción en zócalos y PCBs", "Soportar altas temperaturas", "Alta frecuencia de conmutación"], "answer": 0, "explanation": "El DIP permite montaje fácil en placas y zócalos, facilitando reemplazo y pruebas." },
+
+{ "epigrafe": 1, "question": "El número de pines en un encapsulado DIP estándar puede ser:", "options": ["Entre 4 y 64", "Solo 8", "Siempre 40"], "answer": 0, "explanation": "Los DIP pueden tener desde 4 hasta 64 pines, aunque los más comunes son de 8, 14, 16 y 40." },
+
+{ "epigrafe": 1, "question": "La muesca o punto en un encapsulado DIP sirve para:", "options": ["Identificar la orientación y el pin 1", "Mejorar la disipación térmica", "Reducir interferencias"], "answer": 0, "explanation": "La muesca o marca indica la posición del pin número 1 para evitar errores de conexión." },
+
+{ "epigrafe": 1, "question": "Un amplificador operacional ideal tiene como características:", "options": ["Ganancia infinita, impedancia de entrada infinita y salida nula", "Ganancia infinita, impedancia de entrada infinita y salida nula en reposo", "Ganancia infinita, impedancia de entrada infinita y cero impedancia de salida"], "answer": 2, "explanation": "Un operacional ideal tiene ganancia infinita, impedancia de entrada infinita y salida con impedancia cero." },
+
+{ "epigrafe": 1, "question": "En un operacional en configuración inversora, la señal de salida:", "options": ["Tiene la misma fase que la de entrada", "Está desfasada 180° respecto a la entrada", "Tiene ganancia unitaria"], "answer": 1, "explanation": "En configuración inversora, la salida está invertida de fase respecto a la señal de entrada." },
+
+{ "epigrafe": 1, "question": "Un operacional en configuración no inversora se caracteriza porque:", "options": ["La señal de salida mantiene la fase de la entrada", "Siempre invierte la fase de la señal", "No necesita alimentación"], "answer": 0, "explanation": "En la configuración no inversora, la salida tiene la misma fase que la entrada y proporciona ganancia en tensión." },
+
+{ "epigrafe": 1, "question": "La función de la realimentación negativa en un operacional es:", "options": ["Aumentar la ganancia al máximo", "Estabilizar la ganancia y mejorar la linealidad", "Reducir la impedancia de entrada"], "answer": 1, "explanation": "La realimentación negativa estabiliza la ganancia y mejora la precisión del operacional." },
+
+{ "epigrafe": 1, "question": "En un comparador con operacional, la salida es:", "options": ["Una señal analógica proporcional a la entrada", "Una señal digital de nivel alto o bajo", "Siempre cero"], "answer": 1, "explanation": "En configuración de comparador, la salida cambia bruscamente a nivel alto o bajo según la entrada." },
+
+{ "epigrafe": 1, "question": "La impedancia de entrada de un operacional ideal es:", "options": ["Nula", "Muy baja", "Infinita"], "answer": 2, "explanation": "En un operacional ideal, la impedancia de entrada es infinita para no cargar la señal de entrada." },
+
+{ "epigrafe": 2, "question": "La principal causa de fallo en circuitos integrados por electricidad estática es:", "options": ["Exceso de corriente de fuga", "Ruptura de la fina capa de óxido en la entrada", "Desajuste de polarización"], "answer": 1, "explanation": "La descarga electrostática puede perforar la capa de óxido que protege las compuertas de los circuitos integrados." },
+
+{ "epigrafe": 2, "question": "Una descarga electrostática puede alcanzar tensiones de:", "options": ["Hasta 30 V", "Hasta varios miles de voltios", "Menos de 1 V"], "answer": 1, "explanation": "Una persona cargada puede acumular miles de voltios por ESD, suficientes para dañar componentes electrónicos." },
+
+{ "epigrafe": 2, "question": "Un síntoma típico de daño por ESD en un circuito integrado es:", "options": ["Fallos intermitentes y poco predecibles", "Explosión inmediata del encapsulado", "Cortocircuito en todas las entradas"], "answer": 0, "explanation": "Los daños por ESD suelen ser parciales y provocan fallos intermitentes difíciles de diagnosticar." },
+
+{ "epigrafe": 2, "question": "La electricidad estática se genera principalmente por:", "options": ["Fenómeno de inducción magnética", "Fricción y separación de materiales", "Sobrecalentamiento de semiconductores"], "answer": 1, "explanation": "El roce o separación de materiales diferentes genera acumulación de cargas electrostáticas." },
+
+{ "epigrafe": 2, "question": "Los dispositivos más sensibles a descargas electrostáticas son:", "options": ["Resistencias de carbón", "Circuitos integrados MOSFET", "Transformadores"], "answer": 1, "explanation": "Los MOSFET y dispositivos con óxido de puerta muy fino son extremadamente vulnerables a ESD." },
+
+{ "epigrafe": 2, "question": "Un daño latente por ESD en un componente electrónico significa que:", "options": ["El dispositivo queda inservible de inmediato", "Funciona inicialmente, pero falla con el tiempo", "Se autoprotegerá mediante disipación térmica"], "answer": 1, "explanation": "El daño latente es cuando el componente parece funcionar, pero ha quedado debilitado y fallará posteriormente." },
+
+{ "epigrafe": 2, "question": "El efecto de una descarga electrostática en un circuito digital puede ser:", "options": ["Un cambio de estado lógico inesperado", "Un aumento de la impedancia de salida", "Un descenso en la frecuencia de reloj"], "answer": 0, "explanation": "Una ESD puede alterar el estado de una línea lógica y provocar errores temporales." },
+
+{ "epigrafe": 2, "question": "Un fallo catastrófico por ESD se identifica porque:", "options": ["El componente se quema de forma visible", "El componente deja de funcionar inmediatamente", "El dispositivo genera ruido eléctrico adicional"], "answer": 1, "explanation": "En un fallo catastrófico el componente deja de funcionar tras la descarga." },
+
+{ "epigrafe": 2, "question": "Los daños más graves por electricidad estática en PCBs ocurren durante:", "options": ["El transporte", "La manipulación y montaje", "El almacenamiento en cajas metálicas"], "answer": 1, "explanation": "La manipulación y montaje son momentos críticos donde se acumulan y descargan cargas estáticas." },
+
+{ "epigrafe": 2, "question": "Una descarga electrostática puede ser peligrosa para los circuitos aunque:", "options": ["Sea imperceptible para el ser humano", "Haya chispa visible", "Se descargue a tierra rápidamente"], "answer": 0, "explanation": "Tensiones menores a las que percibe el cuerpo humano ya son suficientes para dañar un semiconductor." },
+
+{ "epigrafe": 2, "question": "El almacenamiento inadecuado de componentes electrónicos puede favorecer:", "options": ["La autodescarga de los condensadores", "El aumento de descargas electrostáticas", "El deterioro de pistas de cobre"], "answer": 1, "explanation": "Un mal embalaje permite acumulación y descarga de electricidad estática dañina para los dispositivos." },
+
+{ "epigrafe": 2, "question": "La electricidad estática en una PCB puede provocar:", "options": ["Alteración del estado lógico de memoria RAM", "Incremento de la inductancia de pistas", "Disminución de la conductividad del cobre"], "answer": 0, "explanation": "Una descarga ESD puede borrar o corromper datos en memorias volátiles como la RAM." },
+
+{ "epigrafe": 2, "question": "Los conectores de un PCB son especialmente vulnerables a ESD porque:", "options": ["Son más grandes que otros componentes", "Son el primer punto de contacto al manipular", "No tienen continuidad eléctrica"], "answer": 1, "explanation": "Los conectores suelen recibir primero la descarga al tocar la placa, transmitiéndola a los circuitos." },
+
+{ "epigrafe": 2, "question": "El fenómeno conocido como 'walking ESD' se produce por:", "options": ["El calor en los conductores", "El movimiento de una persona sobre moqueta", "Un cortocircuito en la fuente de alimentación"], "answer": 1, "explanation": "Caminar sobre moqueta acumula cargas estáticas que luego se descargan al tocar un circuito." },
+
+{ "epigrafe": 2, "question": "El riesgo de ESD aumenta en ambientes:", "options": ["Con alta humedad relativa", "Con baja humedad relativa", "Con temperatura elevada"], "answer": 1, "explanation": "En ambientes secos, la carga estática se disipa peor, aumentando el riesgo de descargas." },
+
+{ "epigrafe": 2, "question": "El daño más común por ESD en un MOSFET ocurre en:", "options": ["La compuerta", "El drenador", "La fuente"], "answer": 0, "explanation": "La compuerta del MOSFET es la parte más sensible por su capa de óxido extremadamente delgada." },
+
+{ "epigrafe": 2, "question": "Los fallos por ESD en PCBs pueden clasificarse como:", "options": ["Catastróficos o latentes", "Externos o internos", "Pasivos o activos"], "answer": 0, "explanation": "Los fallos se dividen en catastróficos (daño inmediato) y latentes (debilitamiento progresivo)." },
+
+{ "epigrafe": 2, "question": "Un síntoma de daño latente por ESD en memorias puede ser:", "options": ["Errores aleatorios en la lectura/escritura", "Pérdida total de funcionamiento inmediato", "Calentamiento excesivo del chip"], "answer": 0, "explanation": "En daños latentes, la memoria muestra errores aleatorios difíciles de diagnosticar." },
+
+{ "epigrafe": 2, "question": "Un técnico sin protección antiestática puede transferir a un circuito:", "options": ["Decenas de voltios", "Miles de voltios", "Un par de microvoltios"], "answer": 1, "explanation": "Un ser humano puede acumular fácilmente miles de voltios sin percibir la descarga." },
+
+{ "epigrafe": 2, "question": "La electricidad estática acumulada en una persona se descarga en un PCB por:", "options": ["Conducción al tocar sus pistas o componentes", "Inducción magnética", "Diferencia de temperatura"], "answer": 0, "explanation": "Al tocar un circuito, la diferencia de potencial descarga la electricidad estática a través de sus pistas." },
+
+{ "epigrafe": 2, "question": "La función principal de una pulsera antiestática es:", "options": ["Evitar la acumulación de cargas en la persona descargándolas a tierra", "Aumentar la conductividad de la piel", "Reducir la tensión de alimentación en los equipos"], "answer": 0, "explanation": "La pulsera antiestática conecta al operario a tierra, evitando acumulación de carga electrostática que pueda dañar componentes." },
+
+{ "epigrafe": 2, "question": "El material más recomendable para manipular PCBs sensibles a ESD es:", "options": ["Guantes de algodón sin tratamiento", "Guantes conductivos o disipativos", "Guantes de látex aislantes"], "answer": 1, "explanation": "Los guantes conductivos o disipativos permiten descargar las cargas lentamente sin generar chispas dañinas." },
+
+{ "epigrafe": 2, "question": "La superficie de trabajo antiestática debe estar:", "options": ["Conectada a tierra mediante una resistencia limitadora", "Directamente aislada del suelo", "Cubierta con un material plástico rígido"], "answer": 0, "explanation": "El tapete ESD debe estar conectado a tierra con una resistencia de unos 1 MΩ para limitar la descarga." },
+
+{ "epigrafe": 2, "question": "Los envases de plástico transparente comunes son peligrosos para almacenar circuitos porque:", "options": ["Pueden acumular electricidad estática", "No aíslan la humedad", "No soportan altas temperaturas"], "answer": 0, "explanation": "El plástico convencional genera y acumula cargas estáticas, por eso se usan bolsas ESD disipativas o metalizadas." },
+
+{ "epigrafe": 2, "question": "Una bolsa antiestática de color plateado está diseñada para:", "options": ["Blindar contra descargas y radiación electromagnética", "Reducir la humedad relativa", "Aumentar la rigidez del encapsulado"], "answer": 0, "explanation": "Las bolsas metalizadas protegen contra descargas electrostáticas y también contra radiación electromagnética externa." },
+
+{ "epigrafe": 2, "question": "El uso de bata o ropa antiestática en zonas de montaje electrónico evita:", "options": ["Que el cuerpo del operario actúe como acumulador de carga", "La contaminación por polvo", "La transferencia de calor"], "answer": 0, "explanation": "La ropa ESD está fabricada con fibras conductivas que evitan acumulación de carga en el cuerpo del operario." },
+
+{ "epigrafe": 2, "question": "La conexión a tierra de las estaciones de trabajo ESD se realiza típicamente mediante:", "options": ["Cables directos sin resistencia", "Resistencias de seguridad en el rango de megaohmios", "Condensadores de filtrado"], "answer": 1, "explanation": "Se usan resistencias de 1 MΩ para derivar cargas lentamente y evitar descargas bruscas." },
+
+{ "epigrafe": 2, "question": "Un calzado con suela conductiva en un área ESD sirve para:", "options": ["Disipar cargas electrostáticas acumuladas al suelo", "Aumentar la fricción en el suelo", "Reducir la conductividad de la persona"], "answer": 0, "explanation": "El calzado ESD conecta eléctricamente al operario con el suelo disipativo, evitando acumulación de cargas." },
+
+{ "epigrafe": 2, "question": "La humedad relativa en áreas de trabajo ESD debe mantenerse alrededor de:", "options": ["10-20 %", "40-60 %", "80-90 %"], "answer": 1, "explanation": "Un nivel de humedad entre 40 % y 60 % ayuda a reducir la acumulación de cargas estáticas en el ambiente." },
+
+{ "epigrafe": 2, "question": "El principal motivo para que las mesas de trabajo ESD no se conecten directamente a tierra sin resistencia es:", "options": ["Proteger al operario frente a posibles descargas eléctricas", "Evitar interferencias de radiofrecuencia", "Mejorar la disipación térmica"], "answer": 0, "explanation": "La resistencia limita la corriente de descarga a tierra, evitando que un operario pueda recibir una descarga peligrosa." },
+
+{ "epigrafe": 2, "question": "El mobiliario en un área ESD debe ser preferiblemente:", "options": ["De madera barnizada", "De materiales disipativos conectados a tierra", "De plástico rígido aislante"], "answer": 1, "explanation": "El mobiliario ESD está fabricado con materiales disipativos que se conectan a tierra para evitar acumulación de carga." },
+
+{ "epigrafe": 2, "question": "El uso de un ionizador en áreas ESD sirve para:", "options": ["Eliminar cargas electrostáticas en objetos aislados", "Reducir la temperatura ambiente", "Incrementar la humedad relativa"], "answer": 0, "explanation": "Los ionizadores neutralizan cargas estáticas en superficies aislantes que no pueden conectarse directamente a tierra." },
+
+{ "epigrafe": 2, "question": "La función de los suelos conductivos en zonas ESD es:", "options": ["Aislar el circuito del entorno", "Disipar cargas de personas y equipos hacia tierra", "Evitar pérdidas por fuga en condensadores"], "answer": 1, "explanation": "Los suelos conductivos canalizan las cargas hacia tierra de manera controlada." },
+
+{ "epigrafe": 2, "question": "Los envases de componentes electrónicos deben ser:", "options": ["Bolsas metalizadas o disipativas", "Cajas de cartón ordinarias", "Sobres de papel encerado"], "answer": 0, "explanation": "Los envases especiales ESD protegen frente a descargas electrostáticas durante transporte y almacenamiento." },
+
+{ "epigrafe": 2, "question": "Un indicador de campo electrostático se utiliza para:", "options": ["Medir la corriente de fuga en PCBs", "Detectar niveles de carga electrostática en superficies", "Verificar la disipación térmica"], "answer": 1, "explanation": "Estos dispositivos miden la magnitud de carga electrostática acumulada en personas, objetos o superficies." },
+
+{ "epigrafe": 2, "question": "Las pulseras antiestáticas deben conectarse:", "options": ["A un punto de tierra con resistencia limitadora", "Directamente al chasis metálico de cualquier equipo", "A una toma de 230 V con filtro"], "answer": 0, "explanation": "Deben conectarse a tierra mediante una resistencia (≈1 MΩ) que limite la descarga." },
+
+{ "epigrafe": 2, "question": "Un error común en el uso de bolsas ESD es:", "options": ["Guardarlas cerca de fuentes de calor", "Abrirlas en áreas no protegidas contra estática", "Usarlas para cables blindados"], "answer": 1, "explanation": "Abrir las bolsas fuera de un área protegida anula la función de protección contra descargas." },
+
+{ "epigrafe": 2, "question": "El símbolo ESD en un embalaje indica:", "options": ["Compatibilidad con altas tensiones", "Protección frente a descargas electrostáticas", "Requiere aislamiento completo"], "answer": 1, "explanation": "El símbolo de la mano con rayo advierte que el contenido es sensible a descargas electrostáticas." },
+
+{ "epigrafe": 2, "question": "La velocidad de descarga de un material antiestático debe ser:", "options": ["Muy rápida, en microsegundos", "Moderada, para evitar picos de corriente", "Muy lenta, en horas"], "answer": 1, "explanation": "Los materiales ESD disipan la carga de forma controlada para evitar corrientes bruscas que dañen los componentes." },
+
+{ "epigrafe": 2, "question": "El almacenamiento seguro de componentes sensibles a ESD incluye:", "options": ["Ambientes con control de humedad, temperatura y envases antiestáticos", "Cajas plásticas comunes y baja humedad", "Exposición al aire para su ventilación"], "answer": 0, "explanation": "El almacenamiento debe realizarse en condiciones controladas y con embalaje antiestático." },
+
+{ "epigrafe": 3, "question": "Un sistema de lazo abierto se caracteriza porque:", "options": ["No tiene realimentación", "Utiliza realimentación negativa", "Corrige automáticamente los errores de salida"], "answer": 0, "explanation": "En un sistema de lazo abierto, la salida no se compara con la entrada, por lo que no existe realimentación." },
+
+{ "epigrafe": 3, "question": "Un sistema de lazo cerrado se diferencia del abierto porque:", "options": ["No necesita sensores", "Incluye realimentación de la salida", "No depende de la señal de entrada"], "answer": 1, "explanation": "En lazo cerrado, la salida se mide y se compara con la entrada para corregir errores." },
+
+{ "epigrafe": 3, "question": "El término 'seguimiento' en un servomecanismo hace referencia a:", "options": ["La capacidad de almacenar datos del sistema", "La precisión con la que la salida sigue la referencia", "El retardo introducido por el controlador"], "answer": 1, "explanation": "Seguimiento es la capacidad del servomecanismo de reproducir fielmente la señal de referencia en la salida." },
+
+{ "epigrafe": 3, "question": "En un servomecanismo, la realimentación negativa se utiliza para:", "options": ["Aumentar el error en la salida", "Reducir el error y estabilizar la respuesta", "Aumentar la ganancia infinita del sistema"], "answer": 1, "explanation": "La realimentación negativa corrige los errores de salida y estabiliza el sistema." },
+
+{ "epigrafe": 3, "question": "Un transductor analógico en un servomecanismo convierte:", "options": ["Una señal continua en digital", "Una magnitud física en una señal eléctrica proporcional", "Una señal digital en pulsos de control"], "answer": 1, "explanation": "El transductor analógico mide una magnitud física y la transforma en señal eléctrica proporcional." },
+
+{ "epigrafe": 3, "question": "Un ejemplo típico de transductor analógico en servomecanismos es:", "options": ["Un potenciómetro", "Un microcontrolador", "Un contador digital"], "answer": 0, "explanation": "El potenciómetro es usado como transductor de posición, entregando una señal analógica proporcional al movimiento." },
+
+{ "epigrafe": 3, "question": "En un sistema de lazo cerrado, el error de seguimiento es:", "options": ["Siempre cero en régimen permanente", "La diferencia entre la señal de referencia y la realimentada", "La suma de ruido y señal útil"], "answer": 1, "explanation": "El error de seguimiento se define como la diferencia entre la referencia y la señal realimentada." },
+
+{ "epigrafe": 3, "question": "Un servomecanismo de lazo abierto es adecuado para:", "options": ["Sistemas de precisión alta", "Procesos que no requieren corrección automática", "Aplicaciones críticas de seguridad"], "answer": 1, "explanation": "En lazo abierto se utilizan donde no es necesario corregir automáticamente los errores de salida." },
+
+{ "epigrafe": 3, "question": "El término 'ganancia' en un servomecanismo se relaciona con:", "options": ["La relación entre entrada y salida del sistema", "La frecuencia de oscilación", "La impedancia de realimentación"], "answer": 0, "explanation": "La ganancia mide la proporción entre la señal de salida y la señal de entrada en el sistema." },
+
+{ "epigrafe": 3, "question": "La estabilidad de un servomecanismo depende de:", "options": ["El tipo de sensor utilizado", "Los parámetros de ganancia y realimentación", "La tensión de alimentación"], "answer": 1, "explanation": "La estabilidad depende de la realimentación y la ganancia ajustada en el sistema de control." },
+
+{ "epigrafe": 3, "question": "El tiempo de respuesta de un servomecanismo es:", "options": ["El tiempo que tarda en alcanzar un valor estable tras una entrada", "El tiempo de almacenamiento de datos en memoria", "El retardo de propagación digital"], "answer": 0, "explanation": "El tiempo de respuesta mide cuánto tarda el sistema en llegar a un valor estable tras un cambio en la entrada." },
+
+{ "epigrafe": 3, "question": "La resolución de un servomecanismo está determinada por:", "options": ["La precisión del transductor de realimentación", "La potencia del motor", "El voltaje de alimentación"], "answer": 0, "explanation": "La resolución depende de la sensibilidad del transductor que mide la posición o la variable controlada." },
+
+{ "epigrafe": 3, "question": "En un sistema de lazo cerrado, la ganancia excesiva puede provocar:", "options": ["Estabilidad mejorada", "Oscilaciones o inestabilidad", "Reducción del tiempo de respuesta"], "answer": 1, "explanation": "Una ganancia demasiado alta en lazo cerrado puede hacer que el sistema oscile e incluso se vuelva inestable." },
+
+{ "epigrafe": 3, "question": "El error en régimen permanente en un servomecanismo depende de:", "options": ["La velocidad del motor", "El tipo de sistema y la realimentación aplicada", "La impedancia de entrada"], "answer": 1, "explanation": "El error final depende del tipo de controlador (proporcional, integral, derivativo) y la realimentación usada." },
+
+{ "epigrafe": 3, "question": "Un potenciómetro usado en un servomecanismo mide:", "options": ["La tensión de alimentación", "La posición angular", "La velocidad de giro"], "answer": 1, "explanation": "El potenciómetro convierte la posición angular en una señal de voltaje proporcional." },
+
+{ "epigrafe": 3, "question": "La realimentación positiva en un servomecanismo provoca:", "options": ["Mayor estabilidad", "Inestabilidad y oscilaciones", "Reducción del error de seguimiento"], "answer": 1, "explanation": "La realimentación positiva amplifica los errores en lugar de corregirlos, causando inestabilidad." },
+
+{ "epigrafe": 3, "question": "Un transductor analógico que mide velocidad puede ser:", "options": ["Un tacogenerador", "Un relé", "Un microprocesador"], "answer": 0, "explanation": "Un tacogenerador convierte la velocidad de giro en una señal analógica proporcional." },
+
+{ "epigrafe": 3, "question": "El error instantáneo en un servomecanismo es:", "options": ["La suma de todas las señales del sistema", "La diferencia entre señal de entrada y señal de realimentación en un momento dado", "La variación del retardo temporal"], "answer": 1, "explanation": "El error instantáneo se define como la diferencia entre la entrada y la señal realimentada en ese instante." },
+
+{ "epigrafe": 3, "question": "Un sistema de lazo abierto en servomecanismos tiene como limitación:", "options": ["No puede corregir perturbaciones externas", "Es demasiado preciso", "Requiere demasiada energía"], "answer": 0, "explanation": "Al no tener realimentación, no corrige perturbaciones ni errores en la salida." },
+
+{ "epigrafe": 3, "question": "Un servomecanismo se define como:", "options": ["Un sistema de control que regula automáticamente una magnitud física", "Un amplificador de señal digital", "Un sistema mecánico sin control electrónico"], "answer": 0, "explanation": "El servomecanismo es un sistema de control automático que regula variables físicas usando realimentación." },
+
+{ "epigrafe": 3, "question": "Un sistema síncrono en servomecanismos utiliza principalmente:", "options": ["Motores paso a paso", "Generadores y receptores acoplados por tensión", "Osciladores de cristal"], "answer": 1, "explanation": "Los sistemas síncronos funcionan con generadores y receptores que transmiten posición a través de tensiones eléctricas." },
+
+{ "epigrafe": 3, "question": "El sistema Selsyn DC se caracteriza porque:", "options": ["Opera con corriente continua", "Funciona con corriente alterna trifásica", "No utiliza realimentación"], "answer": 0, "explanation": "El Selsyn DC es un sistema de transmisión de posición mediante señales de corriente continua." },
+
+{ "epigrafe": 3, "question": "Un sistema Synchro de corriente alterna se utiliza para:", "options": ["Medir temperatura", "Transmitir posición angular", "Almacenar energía"], "answer": 1, "explanation": "Los sistemas Synchro AC convierten posición angular en señales eléctricas que pueden transmitirse a distancia." },
+
+{ "epigrafe": 3, "question": "Un sistema síncrono de transmisión de datos en servomecanismos requiere:", "options": ["Un transductor analógico y un comparador de fase", "Dos dispositivos idénticos acoplados eléctricamente", "Un generador de pulsos digitales"], "answer": 1, "explanation": "El sistema funciona con dos unidades síncronas (transmisor y receptor) conectadas eléctricamente para reproducir el ángulo." },
+
+{ "epigrafe": 3, "question": "En un sistema DC Selsyn, la principal desventaja es:", "options": ["Alta complejidad electrónica", "Pérdidas por histéresis en el núcleo magnético", "Limitada precisión en comparación con sistemas AC"], "answer": 2, "explanation": "El DC Selsyn es menos preciso que los sistemas de transmisión basados en AC Synchro." },
+
+{ "epigrafe": 3, "question": "Los sistemas AC Synchro se prefieren sobre los DC Selsyn porque:", "options": ["Son más simples de fabricar", "Permiten mayor precisión y transmisión a largas distancias", "No requieren alimentación"], "answer": 1, "explanation": "Los AC Synchro tienen mejor precisión y pueden transmitir información de posición a mayores distancias sin pérdidas importantes." },
+
+{ "epigrafe": 3, "question": "El principio de funcionamiento de un Synchro AC se basa en:", "options": ["Variación de la resistencia en un puente", "Acoplamiento electromagnético de devanados", "Efecto piezoeléctrico"], "answer": 1, "explanation": "El Synchro AC transmite información de posición gracias al acoplamiento electromagnético entre devanados." },
+
+{ "epigrafe": 3, "question": "Un error de desalineación en un sistema Synchro provoca:", "options": ["Ruido eléctrico en las líneas", "Un ángulo de salida incorrecto respecto a la referencia", "Una variación en la frecuencia de trabajo"], "answer": 1, "explanation": "La desalineación genera errores en la reproducción del ángulo en el receptor." },
+
+{ "epigrafe": 3, "question": "En un sistema síncrono, el transmisor convierte:", "options": ["Movimiento mecánico en señal eléctrica", "Corriente alterna en continua", "Señales digitales en analógicas"], "answer": 0, "explanation": "El transmisor convierte la posición angular en una señal eléctrica proporcional que viaja hacia el receptor." },
+
+{ "epigrafe": 3, "question": "El receptor en un sistema Synchro convierte:", "options": ["Señal eléctrica en movimiento angular", "Movimiento angular en voltaje alterno", "Voltaje en corriente continua"], "answer": 0, "explanation": "El receptor reproduce mecánicamente la posición a partir de la señal eléctrica recibida." },
+
+{ "epigrafe": 3, "question": "Un transmisor de inductancia en servomecanismos convierte:", "options": ["Posición angular en variación de inductancia", "Velocidad lineal en corriente continua", "Tensión alterna en frecuencia modulada"], "answer": 0, "explanation": "El transmisor de inductancia varía su inductancia en función de la posición mecánica, proporcionando una señal proporcional." },
+
+{ "epigrafe": 3, "question": "El transmisor de capacitancia funciona midiendo:", "options": ["La variación de capacitancia en función del desplazamiento mecánico", "El cambio de resistencia de un material", "La intensidad de luz incidente"], "answer": 0, "explanation": "La capacitancia depende del área de las placas y la separación entre ellas, variando con el movimiento." },
+
+{ "epigrafe": 3, "question": "En un sistema AC Synchro, la precisión aumenta con:", "options": ["La reducción del voltaje aplicado", "Un mayor número de devanados en el estator", "El uso de corriente continua"], "answer": 1, "explanation": "Más devanados en el estator permiten mayor resolución en la detección y transmisión de la posición." },
+
+{ "epigrafe": 3, "question": "El sistema DC Selsyn se emplea principalmente en:", "options": ["Aplicaciones de alta precisión", "Sistemas antiguos o de baja exigencia", "Control de motores trifásicos modernos"], "answer": 1, "explanation": "El Selsyn DC se utilizaba en aplicaciones de transmisión de posición más antiguas y menos precisas." },
+
+{ "epigrafe": 3, "question": "Un transmisor de inductancia tiene como ventaja:", "options": ["No requiere contacto eléctrico directo con el eje", "Genera salida digital inmediata", "No necesita calibración"], "answer": 0, "explanation": "Al ser un dispositivo inductivo, puede detectar la posición sin contacto directo con el eje móvil." },
+
+{ "epigrafe": 3, "question": "Un transmisor de capacitancia es muy sensible a:", "options": ["Cambios de temperatura y humedad", "Corrientes de fuga de alta frecuencia", "Oscilaciones mecánicas de baja amplitud"], "answer": 0, "explanation": "La capacitancia depende del dieléctrico, por lo que la humedad y temperatura afectan su precisión." },
+
+{ "epigrafe": 4, "question": "Las ondas de radio de muy baja frecuencia (VLF) se utilizan principalmente en:", "options": ["Radiodifusión comercial", "Comunicaciones submarinas", "Telefonía móvil"], "answer": 1, "explanation": "Las VLF penetran en el agua y se usan en comunicaciones submarinas con submarinos." },
+
+{ "epigrafe": 4, "question": "Las ondas de alta frecuencia (HF) tienen la ventaja de:", "options": ["Rebotar en la ionosfera y alcanzar largas distancias", "Transmitir datos con muy poco retardo", "No verse afectadas por tormentas solares"], "answer": 0, "explanation": "Las ondas HF se reflejan en la ionosfera, permitiendo comunicaciones a miles de kilómetros." },
+
+{ "epigrafe": 4, "question": "Las ondas de frecuencia ultra alta (UHF) se emplean en:", "options": ["Comunicaciones de satélite y televisión digital", "Radiodifusión AM", "Telefonía por cable"], "answer": 0, "explanation": "UHF se utiliza en TV digital, comunicaciones móviles y enlaces satelitales." },
+
+{ "epigrafe": 4, "question": "Las ondas de radio de frecuencia muy alta (VHF) son usadas en aviación porque:", "options": ["Son fácilmente reflejadas en la ionosfera", "Viajan principalmente en línea recta", "Penetran profundamente en el agua"], "answer": 1, "explanation": "En aviación, las VHF son útiles por su propagación en línea recta y baja interferencia." },
+
+{ "epigrafe": 4, "question": "Las ondas de radio de microondas se utilizan en:", "options": ["Radar y enlaces de comunicaciones", "Radiodifusión AM", "Comunicaciones submarinas"], "answer": 0, "explanation": "Las microondas se emplean en radares, comunicaciones satelitales y enlaces de alta capacidad." },
+
+{ "epigrafe": 4, "question": "El principal inconveniente de las ondas de muy alta frecuencia (VHF) es:", "options": ["Alcance limitado por la curvatura terrestre", "Demasiada dependencia de la ionosfera", "Alta interferencia con AM"], "answer": 0, "explanation": "Las VHF viajan en línea recta, limitando su alcance a la línea de visión." },
+
+{ "epigrafe": 4, "question": "La modulación de amplitud (AM) consiste en:", "options": ["Variar la frecuencia de la onda portadora", "Variar la amplitud de la onda portadora", "Variar la fase de la onda portadora"], "answer": 1, "explanation": "En AM, la amplitud de la portadora varía proporcionalmente a la señal de información." },
+
+{ "epigrafe": 4, "question": "La modulación en frecuencia (FM) se basa en:", "options": ["Variar la amplitud de la portadora", "Variar la frecuencia de la portadora", "Variar la fase de la portadora"], "answer": 1, "explanation": "En FM, la información se transmite variando la frecuencia de la onda portadora." },
+
+{ "epigrafe": 4, "question": "En comunicaciones de radio, la banda lateral única (SSB) es una técnica usada para:", "options": ["Reducir el ancho de banda y la potencia necesaria", "Aumentar la calidad del audio en AM", "Mejorar la propagación en VHF"], "answer": 0, "explanation": "SSB transmite solo una banda lateral y la portadora reducida, optimizando potencia y espectro." },
+
+{ "epigrafe": 4, "question": "La principal ventaja de la modulación en frecuencia (FM) frente a la amplitud modulada (AM) es:", "options": ["Mayor inmunidad al ruido", "Menor ancho de banda requerido", "Mayor alcance por reflexión ionosférica"], "answer": 0, "explanation": "La FM es más resistente a interferencias y ruido que la AM, aunque requiere mayor ancho de banda." },
+
+{ "epigrafe": 4, "question": "Las ondas de radio de baja frecuencia (LF) son utilizadas principalmente en:", "options": ["Navegación marítima y balizas", "Telefonía móvil", "WiFi"], "answer": 0, "explanation": "Las ondas LF atraviesan largas distancias y se emplean en radiobalizas y navegación marítima." },
+
+{ "epigrafe": 4, "question": "Las ondas de frecuencia media (MF) se usan comúnmente en:", "options": ["Radiodifusión AM", "Enlaces de microondas", "Comunicaciones satelitales"], "answer": 0, "explanation": "La banda MF es la utilizada para radiodifusión AM comercial." },
+
+{ "epigrafe": 4, "question": "Las ondas de frecuencia súper alta (SHF) se emplean en:", "options": ["Radar y enlaces satelitales", "AM de onda media", "Comunicaciones submarinas"], "answer": 0, "explanation": "Las SHF abarcan las microondas, usadas en radar y enlaces de alta capacidad." },
+
+{ "epigrafe": 4, "question": "Las ondas extremadamente altas (EHF) se usan principalmente en:", "options": ["Comunicaciones espaciales y radares avanzados", "Radiodifusión FM", "Comunicaciones de submarinos"], "answer": 0, "explanation": "Las EHF, por encima de 30 GHz, se aplican en comunicaciones espaciales y radares de alta resolución." },
+
+{ "epigrafe": 4, "question": "La propagación ionosférica afecta principalmente a:", "options": ["Ondas HF", "Ondas VHF", "Ondas SHF"], "answer": 0, "explanation": "Las ondas de alta frecuencia (HF) se reflejan en la ionosfera, permitiendo comunicaciones a larga distancia." },
+
+{ "epigrafe": 4, "question": "Las ondas VHF no rebotan en la ionosfera porque:", "options": ["Tienen demasiada energía para ser reflejadas", "La ionosfera las absorbe por completo", "El ángulo de incidencia no es suficiente"], "answer": 0, "explanation": "Las VHF poseen demasiada energía para ser reflejadas en la ionosfera y se propagan en línea recta." },
+
+{ "epigrafe": 4, "question": "El fenómeno de desvanecimiento (fading) en radio se debe a:", "options": ["Interferencias por propagación múltiple", "Oscilación en los receptores", "Resonancia en la antena"], "answer": 0, "explanation": "El fading ocurre cuando las señales llegan por trayectorias diferentes y se interfieren entre sí." },
+
+{ "epigrafe": 4, "question": "Las ondas UHF se ven más limitadas en alcance porque:", "options": ["No se reflejan en la ionosfera", "Requieren reflexión múltiple", "Son absorbidas por el suelo"], "answer": 0, "explanation": "Las UHF no rebotan en la ionosfera y se limitan a la línea de visión." },
+
+{ "epigrafe": 4, "question": "El espectro radioeléctrico se divide en bandas según:", "options": ["La longitud de onda o la frecuencia", "El nivel de potencia de transmisión", "La polaridad de la antena"], "answer": 0, "explanation": "Las bandas de radio se clasifican por rangos de frecuencia o, de forma equivalente, longitud de onda." },
+
+{ "epigrafe": 4, "question": "Las ondas EHF presentan como principal desventaja:", "options": ["Fuerte atenuación por la atmósfera y la lluvia", "Reflexión excesiva en la ionosfera", "Dificultad para modularlas"], "answer": 0, "explanation": "Las ondas EHF son muy atenuadas por la atmósfera, la lluvia y el vapor de agua, limitando su alcance." },
+
+{ "epigrafe": 4, "question": "En la modulación en amplitud, la señal portadora:", "options": ["Varía en frecuencia con la información", "Mantiene su frecuencia pero cambia su amplitud", "Se elimina completamente"], "answer": 1, "explanation": "En AM, la frecuencia de la portadora se mantiene fija, pero su amplitud varía con la señal moduladora." },
+
+{ "epigrafe": 4, "question": "El ancho de banda de una señal AM es igual a:", "options": ["La frecuencia de la portadora", "El doble de la frecuencia máxima moduladora", "La mitad de la frecuencia de la portadora"], "answer": 1, "explanation": "El ancho de banda en AM es el doble de la máxima frecuencia de la señal moduladora." },
+
+{ "epigrafe": 4, "question": "En una señal AM, las bandas laterales contienen:", "options": ["La información modulada", "Solo la portadora sin información", "El ruido de transmisión"], "answer": 0, "explanation": "La información transmitida en AM se encuentra en las bandas laterales." },
+
+{ "epigrafe": 4, "question": "El porcentaje de modulación en AM se define como:", "options": ["Relación entre amplitud de la señal moduladora y de la portadora", "Relación entre frecuencia de portadora y moduladora", "Potencia total dividida entre potencia de portadora"], "answer": 0, "explanation": "El índice de modulación en AM es la relación entre la amplitud de la señal moduladora y la amplitud de la portadora." },
+
+{ "epigrafe": 4, "question": "Un exceso en el índice de modulación en AM provoca:", "options": ["Sobremodulación y distorsión", "Mayor alcance sin problemas", "Menor ancho de banda"], "answer": 0, "explanation": "Si el índice de modulación supera el 100 %, se produce sobremodulación y distorsión de la señal." },
+
+{ "epigrafe": 4, "question": "La principal desventaja de la modulación AM frente a FM es:", "options": ["Mayor consumo de ancho de banda", "Más susceptibilidad al ruido", "Imposibilidad de transmitir voz"], "answer": 1, "explanation": "La AM es más vulnerable a interferencias porque el ruido afecta directamente la amplitud de la señal." },
+
+{ "epigrafe": 4, "question": "En la modulación en frecuencia, la variable que se modifica es:", "options": ["La amplitud de la portadora", "La frecuencia de la portadora", "La fase de la portadora"], "answer": 1, "explanation": "En FM, la frecuencia instantánea de la portadora varía en función de la señal moduladora." },
+
+{ "epigrafe": 4, "question": "El ancho de banda de una señal FM depende de:", "options": ["El índice de modulación y la frecuencia moduladora máxima", "La amplitud de la portadora", "La potencia del transmisor"], "answer": 0, "explanation": "El ancho de banda en FM se calcula con la regla de Carson, que depende de la desviación de frecuencia y la máxima frecuencia moduladora." },
+
+{ "epigrafe": 4, "question": "La principal ventaja de la FM frente a la AM es:", "options": ["Menor consumo de potencia", "Mayor inmunidad frente al ruido", "Ancho de banda más reducido"], "answer": 1, "explanation": "En FM, el ruido no afecta tanto porque la información está en la frecuencia y no en la amplitud." },
+
+{ "epigrafe": 4, "question": "El índice de modulación en FM se define como:", "options": ["La desviación máxima de frecuencia dividida por la frecuencia moduladora máxima", "La amplitud de la portadora entre la amplitud de la moduladora", "La potencia total dividida por la potencia de portadora"], "answer": 0, "explanation": "El índice de modulación en FM es la relación entre la desviación máxima de frecuencia y la máxima frecuencia de la señal moduladora." },
+
+{ "epigrafe": 4, "question": "Una de las principales aplicaciones de la FM es:", "options": ["Radiodifusión de alta calidad de sonido", "Transmisión de ondas de baja frecuencia", "Comunicaciones submarinas"], "answer": 0, "explanation": "La FM se usa en radiodifusión porque ofrece mejor calidad de audio y menos ruido que la AM." },
+
+{ "epigrafe": 4, "question": "La principal desventaja de la FM frente a la AM es:", "options": ["Mayor ancho de banda requerido", "Menor calidad de sonido", "Mayor susceptibilidad al ruido"], "answer": 0, "explanation": "La FM necesita un ancho de banda mucho mayor que la AM, aunque es más resistente al ruido." },
+
+{ "epigrafe": 4, "question": "La técnica de Banda Lateral Única (SSB) consiste en:", "options": ["Eliminar una de las bandas laterales y la portadora", "Duplicar la frecuencia portadora", "Aumentar la amplitud de ambas bandas laterales"], "answer": 0, "explanation": "En SSB se transmite solo una de las bandas laterales y se reduce o elimina la portadora para ahorrar ancho de banda y potencia." },
+
+{ "epigrafe": 4, "question": "La principal ventaja de SSB sobre AM es:", "options": ["Mejor calidad de sonido", "Menor consumo de potencia y ancho de banda", "Mayor resistencia al ruido impulsivo"], "answer": 1, "explanation": "SSB reduce el ancho de banda necesario y requiere menos potencia para transmitir la misma información." },
+
+{ "epigrafe": 4, "question": "Una desventaja de la SSB frente a la AM es:", "options": ["Necesita receptores más complejos", "Tiene mayor ancho de banda", "Es más vulnerable al ruido"], "answer": 0, "explanation": "La SSB requiere receptores más sofisticados porque deben reintegrar la portadora para demodular la señal." },
+
+{ "epigrafe": 4, "question": "El ancho de banda de una señal SSB es aproximadamente:", "options": ["La mitad del ancho de banda de una señal AM", "El doble del ancho de banda de una señal FM", "Igual al ancho de banda de la portadora"], "answer": 0, "explanation": "Al transmitir solo una banda lateral, SSB utiliza la mitad del ancho de banda requerido en AM." },
+
+{ "epigrafe": 4, "question": "En comunicaciones aeronáuticas de larga distancia se prefiere SSB porque:", "options": ["Utiliza enlaces por satélite", "Permite comunicaciones más eficientes en HF", "Es inmune a tormentas solares"], "answer": 1, "explanation": "La SSB es usada en HF porque permite cubrir grandes distancias con menor potencia y espectro." },
+
+{ "epigrafe": 4, "question": "El uso de portadora reducida en SSB permite:", "options": ["Que los receptores AM comunes la reciban sin problemas", "Ahorrar energía y mejorar eficiencia", "Aumentar la calidad de audio en alta fidelidad"], "answer": 1, "explanation": "Reducir la portadora disminuye la potencia necesaria, mejorando la eficiencia en la transmisión." },
+
+{ "epigrafe": 4, "question": "La función principal de un transmisor de radio es:", "options": ["Convertir una señal eléctrica en onda electromagnética modulada", "Almacenar energía para la antena", "Reducir la frecuencia de la señal de audio"], "answer": 0, "explanation": "El transmisor convierte la señal de información en una onda portadora modulada que luego se irradia." },
+
+{ "epigrafe": 4, "question": "La etapa osciladora en un transmisor genera:", "options": ["La señal de portadora de alta frecuencia", "La señal de modulación de baja frecuencia", "La señal de realimentación negativa"], "answer": 0, "explanation": "El oscilador produce la señal de portadora de radiofrecuencia que será modulada con la información." },
+
+{ "epigrafe": 4, "question": "La etapa moduladora de un transmisor tiene como función:", "options": ["Generar la portadora", "Combinar la portadora con la señal de información", "Amplificar directamente la señal de antena"], "answer": 1, "explanation": "La moduladora combina la portadora con la señal de información en el transmisor." },
+
+{ "epigrafe": 4, "question": "La etapa amplificadora de potencia en un transmisor sirve para:", "options": ["Incrementar la energía de la señal antes de enviarla a la antena", "Estabilizar la frecuencia de oscilación", "Generar la señal de audio"], "answer": 0, "explanation": "Antes de enviarla a la antena, la señal modulada debe ser amplificada para alcanzar la potencia de transmisión necesaria." },
+
+{ "epigrafe": 4, "question": "La potencia de salida de un transmisor aeronáutico VHF suele ser de:", "options": ["Entre 10 y 25 W", "Menos de 1 W", "Más de 1 kW"], "answer": 0, "explanation": "En comunicaciones aeronáuticas, los transmisores VHF suelen entregar entre 10 y 25 W de potencia." },
+
+{ "epigrafe": 4, "question": "En un receptor superheterodino, la señal de radiofrecuencia recibida se convierte en:", "options": ["Una señal de frecuencia intermedia (FI)", "Una señal digital directa", "Una señal de audio amplificada"], "answer": 0, "explanation": "El principio del receptor superheterodino es convertir la frecuencia recibida a una frecuencia intermedia para su procesamiento." },
+
+{ "epigrafe": 4, "question": "La etapa de frecuencia intermedia (FI) en un receptor tiene como misión:", "options": ["Filtrar y amplificar la señal intermedia", "Generar la portadora modulada", "Transformar la señal de audio en RF"], "answer": 0, "explanation": "La FI permite filtrar y amplificar con alta selectividad la señal intermedia antes de la detección." },
+
+{ "epigrafe": 4, "question": "La etapa detectora en un receptor de AM recupera:", "options": ["La señal de audio moduladora", "La portadora pura", "El ruido de la señal"], "answer": 0, "explanation": "El detector extrae la señal moduladora original (audio) a partir de la portadora AM." },
+
+{ "epigrafe": 4, "question": "En un receptor de FM, la demodulación se realiza mediante:", "options": ["Un discriminador o detector de frecuencia", "Un detector de envolvente", "Un comparador de amplitud"], "answer": 0, "explanation": "La FM se demodula usando discriminadores o detectores de frecuencia que convierten variaciones de frecuencia en tensión proporcional." },
+
+{ "epigrafe": 4, "question": "Una característica principal de los receptores superheterodinos es:", "options": ["Alta selectividad y sensibilidad", "Ancho de banda ilimitado", "Inmunidad total al ruido"], "answer": 0, "explanation": "El superheterodino ofrece gran selectividad y sensibilidad gracias al uso de la frecuencia intermedia." },
+
+{ "epigrafe": 4, "question": "En un transmisor, el oscilador maestro debe ser:", "options": ["Muy estable en frecuencia", "De muy baja potencia", "Capaz de amplificar la señal modulada"], "answer": 0, "explanation": "El oscilador maestro genera la portadora y debe ser extremadamente estable para garantizar comunicaciones fiables." },
+
+{ "epigrafe": 4, "question": "En un transmisor de AM, la modulación puede aplicarse en:", "options": ["Etapa de oscilador o etapa de potencia", "Exclusivamente en la antena", "Solo en la etapa detectora"], "answer": 0, "explanation": "En AM, la modulación puede hacerse en la etapa de baja frecuencia o directamente en la etapa de potencia." },
+
+{ "epigrafe": 4, "question": "La eficiencia de un transmisor depende principalmente de:", "options": ["La etapa moduladora", "La etapa amplificadora de potencia", "El tipo de antena usada"], "answer": 1, "explanation": "La etapa de potencia determina la eficiencia final del transmisor." },
+
+{ "epigrafe": 4, "question": "La potencia de salida de un transmisor debe adaptarse a:", "options": ["El tipo de antena conectada", "La impedancia de la carga", "La frecuencia de audio"], "answer": 1, "explanation": "El transmisor debe entregar su potencia en la impedancia de carga adecuada, normalmente 50 Ω." },
+
+{ "epigrafe": 4, "question": "En receptores de radio, la primera etapa amplificadora suele ser de:", "options": ["Baja frecuencia", "Radiofrecuencia", "Audio"], "answer": 1, "explanation": "El amplificador de RF aumenta la señal captada antes de la conversión a frecuencia intermedia." },
+
+{ "epigrafe": 4, "question": "La frecuencia intermedia (FI) más común en receptores AM es:", "options": ["455 kHz", "10,7 MHz", "1,5 GHz"], "answer": 0, "explanation": "En receptores AM convencionales se usa una frecuencia intermedia de 455 kHz." },
+
+{ "epigrafe": 4, "question": "La FI más común en receptores FM comerciales es:", "options": ["455 kHz", "10,7 MHz", "2,4 GHz"], "answer": 1, "explanation": "En receptores FM, la frecuencia intermedia estándar es 10,7 MHz." },
+
+{ "epigrafe": 4, "question": "La sensibilidad de un receptor indica:", "options": ["El nivel mínimo de señal que puede detectar", "La capacidad de discriminar frecuencias cercanas", "El rango dinámico de audio"], "answer": 0, "explanation": "La sensibilidad mide la capacidad de recibir señales muy débiles." },
+
+{ "epigrafe": 4, "question": "La selectividad de un receptor mide:", "options": ["La capacidad de discriminar señales cercanas en frecuencia", "La potencia de salida en la antena", "El nivel de modulación máxima"], "answer": 0, "explanation": "La selectividad es la capacidad de separar señales con frecuencias próximas." },
+
+{ "epigrafe": 4, "question": "El mezclador en un receptor superheterodino tiene como función:", "options": ["Convertir la señal recibida a frecuencia intermedia", "Generar la portadora modulada", "Detectar la señal de audio"], "answer": 0, "explanation": "El mezclador combina la señal de entrada con la del oscilador local para generar la frecuencia intermedia." },
+
+{ "epigrafe": 4, "question": "En un receptor, la etapa de audio se encarga de:", "options": ["Demodular la portadora", "Amplificar la señal recuperada para altavoces o auriculares", "Reducir la frecuencia intermedia"], "answer": 1, "explanation": "Tras la detección, la señal de audio debe ser amplificada para su escucha." },
+
+{ "epigrafe": 4, "question": "Un transceptor se define como:", "options": ["Un equipo que transmite y recibe en un mismo bloque", "Un dispositivo que solo recibe", "Un amplificador de potencia independiente"], "answer": 0, "explanation": "Un transceptor combina en un solo equipo las funciones de transmisor y receptor." },
+
+{ "epigrafe": 4, "question": "Una ventaja de los transceptores es:", "options": ["Compartir etapas de transmisión y recepción", "Mayor potencia de transmisión", "Mayor estabilidad que un transmisor separado"], "answer": 0, "explanation": "Los transceptores comparten partes del circuito, reduciendo coste y tamaño." },
+
+{ "epigrafe": 4, "question": "La antena de un transmisor tiene como misión:", "options": ["Convertir energía eléctrica en ondas electromagnéticas", "Reducir la potencia transmitida", "Almacenar la señal"], "answer": 0, "explanation": "La antena transforma la señal eléctrica amplificada en radiación electromagnética." },
+
+{ "epigrafe": 4, "question": "La antena de un receptor se encarga de:", "options": ["Transformar las ondas electromagnéticas en señal eléctrica", "Amplificar la señal de entrada", "Eliminar interferencias"], "answer": 0, "explanation": "En recepción, la antena convierte ondas de radio en señales eléctricas detectables." },
+
+{ "epigrafe": 4, "question": "El diagrama de radiación de una antena muestra:", "options": ["La distribución espacial de la energía radiada", "El nivel de modulación aplicado", "La impedancia de la antena"], "answer": 0, "explanation": "El diagrama de radiación indica cómo se distribuye la energía emitida en el espacio." },
+
+{ "epigrafe": 4, "question": "Una antena omnidireccional se caracteriza porque:", "options": ["Radia en todas direcciones en el plano horizontal", "Señala en un ángulo fijo", "Solo funciona en UHF"], "answer": 0, "explanation": "La antena omnidireccional emite uniformemente en el plano horizontal." },
+
+{ "epigrafe": 4, "question": "Una antena direccional concentra la radiación:", "options": ["En un ángulo o dirección específica", "Uniformemente en todas las direcciones", "Solo hacia abajo"], "answer": 0, "explanation": "Las antenas direccionales enfocan la energía en una dirección concreta, aumentando el alcance." },
+
+{ "epigrafe": 4, "question": "La impedancia típica de las antenas de radio es:", "options": ["50 Ω", "75 kΩ", "10 Ω"], "answer": 0, "explanation": "La mayoría de sistemas de radio utilizan antenas de 50 Ω para coincidir con la impedancia del transmisor." },
+
+{ "epigrafe": 4, "question": "Una antena mal adaptada al transmisor puede causar:", "options": ["Ondas estacionarias y pérdidas de potencia", "Mayor calidad de audio", "Aumento automático de selectividad"], "answer": 0, "explanation": "La desadaptación de impedancias provoca ondas estacionarias que reducen la eficiencia y pueden dañar el transmisor." },
+
+{ "epigrafe": 4, "question": "La función de una línea de transmisión en radiofrecuencia es:", "options": ["Conducir señales de RF entre el transmisor/receptor y la antena", "Almacenar energía electromagnética", "Filtrar la señal de modulación"], "answer": 0, "explanation": "Las líneas de transmisión transportan señales de RF con la mínima pérdida posible entre equipos y antenas." },
+
+{ "epigrafe": 4, "question": "Un parámetro importante de una línea de transmisión es:", "options": ["La impedancia característica", "La tensión de ruptura", "El índice de modulación"], "answer": 0, "explanation": "La impedancia característica define cómo se comporta la línea frente a la señal y debe coincidir con la antena y el transmisor." },
+
+{ "epigrafe": 4, "question": "La impedancia característica de la mayoría de líneas coaxiales usadas en radio es:", "options": ["50 Ω", "75 Ω", "600 Ω"], "answer": 0, "explanation": "En radiofrecuencia se utilizan principalmente coaxiales de 50 Ω por su equilibrio entre pérdidas y potencia soportada." },
+
+{ "epigrafe": 4, "question": "El coeficiente de ondas estacionarias (ROE o VSWR) indica:", "options": ["El grado de desadaptación entre línea y carga", "La frecuencia máxima soportada por la línea", "El nivel de potencia de salida del transmisor"], "answer": 0, "explanation": "El ROE mide la relación entre ondas incidentes y reflejadas, indicando la adaptación de impedancias." },
+
+{ "epigrafe": 4, "question": "Un valor de ROE = 1:1 significa:", "options": ["Adaptación perfecta sin ondas reflejadas", "Pérdidas máximas en la línea", "Sobremodulación"], "answer": 0, "explanation": "Un ROE de 1:1 indica coincidencia perfecta de impedancias y máxima eficiencia en la transmisión." },
+
+{ "epigrafe": 4, "question": "Las pérdidas en una línea coaxial aumentan con:", "options": ["La frecuencia de la señal", "La temperatura ambiente", "La longitud de onda más larga"], "answer": 0, "explanation": "A frecuencias más altas, la atenuación en coaxiales es mayor debido al efecto pelicular y las pérdidas dieléctricas." },
+
+{ "epigrafe": 4, "question": "El efecto pelicular en líneas de transmisión consiste en:", "options": ["La concentración de la corriente en la superficie del conductor a altas frecuencias", "La deformación de la señal por reflexiones", "La pérdida de aislamiento dieléctrico"], "answer": 0, "explanation": "A altas frecuencias, la corriente se concentra en la superficie del conductor, aumentando la resistencia efectiva." },
+
+{ "epigrafe": 4, "question": "Una desadaptación de impedancias en una línea de transmisión provoca:", "options": ["Reflexión parcial de la señal hacia el transmisor", "Incremento automático de la selectividad", "Mayor inmunidad al ruido"], "answer": 0, "explanation": "Si no hay coincidencia de impedancias, parte de la señal se refleja y no llega a la antena." },
+
+{ "epigrafe": 4, "question": "El cable coaxial más usado en equipos de aviación es:", "options": ["RG-58 de 50 Ω", "Par trenzado de 100 Ω", "Línea abierta de 600 Ω"], "answer": 0, "explanation": "El RG-58 de 50 Ω es un estándar en aplicaciones de radio en aeronaves." },
+
+{ "epigrafe": 4, "question": "Una línea de transmisión de mala calidad puede provocar:", "options": ["Pérdidas de señal y calentamiento excesivo", "Aumento de la frecuencia de trabajo", "Mejora de la estabilidad de fase"], "answer": 0, "explanation": "Una línea con pérdidas altas o mal adaptada provoca calentamiento, atenuación y reflexiones." },
+
+{ "epigrafe": 4, "question": "El sistema ADS-B transmite información de la aeronave mediante:", "options": ["Satélites de órbita baja", "Señales automáticas de radiodifusión", "Microondas guiadas por radar terrestre"], "answer": 1, "explanation": "ADS-B (Automatic Dependent Surveillance Broadcast) transmite automáticamente datos de posición, velocidad y altitud de la aeronave." },
+
+{ "epigrafe": 4, "question": "El ADS-B depende principalmente de:", "options": ["Señales GPS y sistemas de navegación inercial", "Ondas LF reflejadas en la ionosfera", "Un enlace de microondas fijo"], "answer": 0, "explanation": "ADS-B obtiene su información de sistemas GPS y de los sensores a bordo de la aeronave." },
+
+{ "epigrafe": 4, "question": "Una de las ventajas del ADS-B frente al radar primario es:", "options": ["Mayor precisión en la determinación de posición", "No necesita satélites para funcionar", "Menor dependencia de GPS"], "answer": 0, "explanation": "El ADS-B proporciona precisión superior porque transmite directamente los datos de la aeronave." },
+
+{ "epigrafe": 4, "question": "La frecuencia más utilizada por ADS-B es:", "options": ["1090 MHz", "121,5 MHz", "406 MHz"], "answer": 0, "explanation": "El ADS-B utiliza 1090 MHz como frecuencia estándar en la aviación." },
+
+{ "epigrafe": 4, "question": "ADS-B es considerado un sistema:", "options": ["Dependiente y cooperativo", "Independiente y pasivo", "Activo pero no cooperativo"], "answer": 0, "explanation": "Es dependiente del GPS y cooperativo porque la aeronave emite sus propios datos." },
+
+{ "epigrafe": 4, "question": "El uso de ADS-B mejora la gestión del tráfico aéreo porque:", "options": ["Reduce el consumo de combustible", "Permite separación más eficiente entre aeronaves", "Evita la necesidad de controladores aéreos"], "answer": 1, "explanation": "ADS-B permite controlar mejor las distancias de separación, optimizando el espacio aéreo." },
+
+{ "epigrafe": 4, "question": "El ADS-B 'Out' significa:", "options": ["Que la aeronave transmite su información a otros", "Que solo puede recibir información", "Que está conectado al sistema de radar terrestre"], "answer": 0, "explanation": "El ADS-B Out transmite datos de la aeronave a estaciones terrestres y a otras aeronaves." },
+
+{ "epigrafe": 4, "question": "El ADS-B 'In' permite:", "options": ["Recibir datos de otras aeronaves y estaciones", "Enviar únicamente posición GPS", "Comunicar mensajes de voz"], "answer": 0, "explanation": "ADS-B In es la capacidad de recibir información de tráfico y meteorología en cabina." },
+
+{ "epigrafe": 4, "question": "Una limitación del ADS-B es:", "options": ["Depende de la integridad de la señal GPS", "No puede funcionar en aviones comerciales", "Tiene muy baja precisión"], "answer": 0, "explanation": "ADS-B depende del GPS, por lo que una degradación de señal afecta su fiabilidad." },
+
+{ "epigrafe": 4, "question": "El ADS-B se considera clave en la iniciativa:", "options": ["NextGen (EE.UU.) y SESAR (Europa)", "HF Global Link", "Red satelital Iridium"], "answer": 0, "explanation": "ADS-B es parte fundamental de los programas de modernización del control de tráfico aéreo NextGen y SESAR." },
+
+{ "epigrafe": 4, "question": "El ELT (Emergency Locator Transmitter) es un dispositivo que:", "options": ["Transmite automáticamente señales de socorro en caso de accidente", "Recibe comunicaciones de emergencia en vuelo", "Aumenta la potencia de transmisión de la radio principal"], "answer": 0, "explanation": "El ELT emite señales de socorro automáticas tras un impacto para localizar aeronaves accidentadas." },
+
+{ "epigrafe": 4, "question": "La frecuencia internacional de emergencia usada por los ELT antiguos es:", "options": ["121,5 MHz", "243 MHz", "1090 MHz"], "answer": 0, "explanation": "Los ELT más antiguos transmitían en 121,5 MHz y 243 MHz para búsquedas aéreas." },
+
+{ "epigrafe": 4, "question": "Los ELT modernos transmiten en:", "options": ["406 MHz", "30 kHz", "10,7 MHz"], "answer": 0, "explanation": "Los ELT actuales transmiten en 406 MHz para ser detectados por satélites Cospas-Sarsat." },
+
+{ "epigrafe": 4, "question": "El sistema satelital que detecta señales ELT es:", "options": ["Cospas-Sarsat", "Iridium", "Galileo"], "answer": 0, "explanation": "El sistema internacional Cospas-Sarsat detecta y localiza señales de socorro en 406 MHz." },
+
+{ "epigrafe": 4, "question": "El accionamiento automático de un ELT ocurre cuando:", "options": ["Se detecta un impacto o desaceleración brusca", "Se pierde señal GPS", "El piloto pulsa la radio de cabina"], "answer": 0, "explanation": "Los ELT incluyen un sensor de impacto que activa la transmisión en caso de accidente." },
+
+{ "epigrafe": 4, "question": "Un ELT portátil puede ser usado:", "options": ["Por la tripulación tras evacuar la aeronave", "Solo mientras el avión está en vuelo", "Únicamente para comunicaciones con ATC"], "answer": 0, "explanation": "Los ELT portátiles permiten que la tripulación los lleve consigo tras un aterrizaje de emergencia." },
+
+{ "epigrafe": 4, "question": "La transmisión de un ELT en 406 MHz incluye:", "options": ["Un código digital único de identificación", "Solo una señal analógica continua", "Mensajes de voz en AM"], "answer": 0, "explanation": "Las transmisiones modernas de ELT en 406 MHz llevan un código de identificación digital de la aeronave." },
+
+{ "epigrafe": 4, "question": "La principal diferencia entre ELT de 121,5 MHz y los de 406 MHz es:", "options": ["Los de 406 MHz permiten localización satelital precisa", "Los de 121,5 MHz usan señales digitales", "Los de 406 MHz no pueden ser recibidos por satélites"], "answer": 0, "explanation": "Los ELT en 406 MHz son detectados por satélites Cospas-Sarsat y permiten localización precisa." },
+
+{ "epigrafe": 4, "question": "La normativa internacional actual exige que los ELT transmitan en:", "options": ["406 MHz", "121,5 MHz", "1090 MHz"], "answer": 0, "explanation": "La OACI establece que los ELT modernos deben transmitir en 406 MHz para compatibilidad con el sistema Cospas-Sarsat." },
+
+{ "epigrafe": 4, "question": "El principal objetivo del ELT es:", "options": ["Reducir el tiempo de búsqueda y rescate", "Mejorar la comunicación en vuelo", "Aumentar la eficiencia del control aéreo"], "answer": 0, "explanation": "Los ELT permiten localizar rápidamente aeronaves accidentadas y facilitar operaciones de búsqueda y rescate." },
+
+{ "epigrafe": 1, "question": "En un diodo Zener, la región de operación en inversa controlada se llama:", "options": ["Zona de ruptura", "Zona de conducción directa", "Zona de fuga térmica"], "answer": 0, "explanation": "El diodo Zener trabaja en la región de ruptura inversa controlada para estabilizar voltajes." },
+
+{ "epigrafe": 1, "question": "El diodo Schottky se caracteriza por:", "options": ["Caída directa más baja que un diodo normal", "Alta tensión de ruptura", "Conducción en ambas direcciones"], "answer": 0, "explanation": "Los Schottky tienen una caída de 0,2–0,3 V, menores pérdidas y alta velocidad." },
+
+{ "epigrafe": 1, "question": "Un puente rectificador de onda completa utiliza:", "options": ["Dos diodos", "Cuatro diodos", "Seis diodos"], "answer": 1, "explanation": "El puente rectificador de onda completa necesita 4 diodos para convertir CA en CC." },
+
+{ "epigrafe": 1, "question": "La principal ventaja de un LED frente a una lámpara incandescente es:", "options": ["Mayor consumo", "Duración mucho mayor", "Requiere alta tensión para funcionar"], "answer": 1, "explanation": "Los LED consumen menos energía y duran mucho más que una lámpara incandescente." },
+
+{ "epigrafe": 1, "question": "Un fotodiodo polarizado en inversa produce corriente cuando:", "options": ["Recibe luz incidente", "Se calienta por encima de 60 °C", "Tiene polarización directa"], "answer": 0, "explanation": "El fotodiodo genera corriente en inversa al incidir la luz." },
+
+{ "epigrafe": 1, "question": "En un transistor NPN, la corriente de colector depende principalmente de:", "options": ["La corriente de base", "La tensión de colector", "El tipo de encapsulado"], "answer": 0, "explanation": "La corriente de colector es controlada por la de base, multiplicada por la ganancia β." },
+
+{ "epigrafe": 1, "question": "La configuración Darlington tiene como principal característica:", "options": ["Muy alta ganancia de corriente", "Muy baja resistencia de salida", "No requiere polarización"], "answer": 0, "explanation": "El par Darlington multiplica la ganancia de corriente de dos transistores en cascada." },
+
+{ "epigrafe": 1, "question": "El punto de polarización de un transistor se elige para:", "options": ["Evitar la saturación en todo momento", "Fijar el funcionamiento estable en la región activa", "Aumentar la resistencia de base"], "answer": 1, "explanation": "El punto Q se elige en la región activa para funcionamiento estable como amplificador." },
+
+{ "epigrafe": 1, "question": "En un operacional ideal, la ganancia en lazo abierto es:", "options": ["Muy baja", "Infinita", "Cercana a cero"], "answer": 1, "explanation": "Un operacional ideal se modela con ganancia infinita en lazo abierto." },
+
+{ "epigrafe": 1, "question": "La función de la realimentación negativa en un operacional es:", "options": ["Aumentar la distorsión", "Controlar la ganancia efectiva", "Eliminar el desfase"], "answer": 1, "explanation": "La realimentación negativa estabiliza y controla la ganancia de un operacional." },
+
+{ "epigrafe": 2, "question": "El uso de suelos disipativos en un área ESD busca:", "options": ["Eliminar polvo", "Drenar cargas acumuladas en personas y equipos", "Reducir la inductancia del suelo"], "answer": 1, "explanation": "Los suelos disipativos permiten que las cargas se drenen lentamente a tierra." },
+
+{ "epigrafe": 2, "question": "Un embalaje ESD tipo bolsa metalizada protege al componente de:", "options": ["Descargas electrostáticas e interferencias externas", "Exceso de temperatura", "Oscilaciones de frecuencia"], "answer": 0, "explanation": "Las bolsas metalizadas disipan cargas y blindan contra interferencias." },
+
+{ "epigrafe": 2, "question": "El nivel de humedad en áreas protegidas contra ESD debe estar en torno a:", "options": ["10-20 %", "40-60 %", "90-100 %"], "answer": 1, "explanation": "Entre 40 % y 60 % de humedad relativa se minimiza la acumulación de cargas." },
+
+{ "epigrafe": 3, "question": "En un servomecanismo, el error de seguimiento es:", "options": ["La diferencia entre entrada y salida realimentada", "El tiempo que tarda en estabilizarse", "La variación de tensión de alimentación"], "answer": 0, "explanation": "El error de seguimiento es la diferencia entre la referencia y la señal realimentada." },
+
+{ "epigrafe": 3, "question": "Un tacogenerador en un servomecanismo se emplea como:", "options": ["Sensor de velocidad", "Controlador de potencia", "Generador de portadora"], "answer": 0, "explanation": "El tacogenerador convierte velocidad de giro en señal de tensión proporcional." },
+
+{ "epigrafe": 4, "question": "En comunicaciones VHF aeronáuticas, el alcance está limitado principalmente por:", "options": ["La curvatura de la Tierra", "La ionosfera", "La potencia del transmisor"], "answer": 0, "explanation": "Las VHF viajan en línea recta y su alcance está limitado por la línea de visión." },
+
+{ "epigrafe": 4, "question": "Una ventaja de la modulación en frecuencia frente a la AM es:", "options": ["Mayor inmunidad al ruido", "Menor ancho de banda", "Mayor alcance por ionosfera"], "answer": 0, "explanation": "La FM es mucho más inmune al ruido que la AM." },
+
+{ "epigrafe": 4, "question": "La antena omnidireccional se caracteriza porque:", "options": ["Emite energía uniformemente en el plano horizontal", "Concentra energía en un ángulo estrecho", "Solo sirve para transmisión"], "answer": 0, "explanation": "Una antena omnidireccional emite igual en todas direcciones horizontales." },
+
+{ "epigrafe": 4, "question": "El coeficiente ROE (VSWR) en líneas de transmisión indica:", "options": ["El grado de desadaptación entre línea y antena", "La ganancia de la antena", "El nivel de modulación"], "answer": 0, "explanation": "El ROE indica el nivel de ondas estacionarias debido a desadaptación de impedancias." },
+
+{ "epigrafe": 4, "question": "La función del sistema ELT es:", "options": ["Transmitir señales de socorro en caso de accidente", "Mejorar la cobertura VHF", "Reemplazar al transpondedor"], "answer": 0, "explanation": "El ELT emite señales de emergencia para localizar aeronaves accidentadas." },
+
+{ "epigrafe": 1, "question": "En un diodo rectificador, la caída de tensión en conducción directa es típicamente de:", "options": ["0,7 V en silicio", "1,5 V en germanio", "2 V en Schottky"], "answer": 0, "explanation": "Un diodo de silicio convencional tiene caída directa de unos 0,7 V." },
+
+{ "epigrafe": 1, "question": "El diodo de germanio se diferencia del de silicio por:", "options": ["Menor caída de tensión directa", "Mayor tensión de ruptura", "Mayor eficiencia a alta temperatura"], "answer": 0, "explanation": "Los diodos de germanio presentan una caída de 0,3 V frente a 0,7 V del silicio." },
+
+{ "epigrafe": 1, "question": "El diodo varicap se emplea como:", "options": ["Condensador variable controlado por tensión", "Amplificador de señal", "Rectificador de media onda"], "answer": 0, "explanation": "El varicap varía su capacitancia con la tensión aplicada inversa." },
+
+{ "epigrafe": 1, "question": "La principal aplicación del diodo LED es:", "options": ["Emisión de luz al ser polarizado directamente", "Detección de radiación ionizante", "Estabilización de corriente"], "answer": 0, "explanation": "El LED emite luz visible o infrarroja cuando conduce en directa." },
+
+{ "epigrafe": 1, "question": "El diodo túnel se caracteriza por:", "options": ["Efecto de resistencia negativa", "Alta tensión de ruptura", "Gran linealidad"], "answer": 0, "explanation": "El diodo túnel trabaja en la región de resistencia negativa y se usa en osciladores." },
+
+{ "epigrafe": 1, "question": "Los diodos en paralelo deben ser cuidadosamente seleccionados porque:", "options": ["Pequeñas diferencias de tensión directa producen desequilibrio de corriente", "No pueden conducir en alterna", "Se saturan en baja frecuencia"], "answer": 0, "explanation": "Si los diodos en paralelo no están emparejados, uno conduce más corriente que otro." },
+
+{ "epigrafe": 1, "question": "Un diodo usado como detector de AM trabaja en:", "options": ["Región no lineal", "Ruptura Zener", "Zona de saturación"], "answer": 0, "explanation": "El diodo como detector aprovecha la no linealidad de la conducción." },
+
+{ "epigrafe": 1, "question": "El diodo láser se diferencia del LED porque:", "options": ["Emite luz coherente y monocromática", "Tiene menor eficiencia", "No necesita polarización directa"], "answer": 0, "explanation": "El diodo láser emite luz coherente y monocromática, a diferencia del LED." },
+
+{ "epigrafe": 1, "question": "Un diodo fotovoltaico convierte:", "options": ["Luz en energía eléctrica", "Calor en tensión", "Corriente en radiación"], "answer": 0, "explanation": "El diodo fotovoltaico genera tensión y corriente cuando recibe luz solar." },
+
+{ "epigrafe": 1, "question": "El tiempo de recuperación inversa de un diodo es importante en:", "options": ["Circuitos de alta frecuencia", "Sistemas de baja potencia", "Condensadores electrolíticos"], "answer": 0, "explanation": "Un tiempo de recuperación alto limita el uso del diodo en conmutaciones rápidas." },
+
+{ "epigrafe": 1, "question": "Un transistor BJT se controla mediante:", "options": ["La corriente de base", "La tensión de puerta", "El campo magnético aplicado"], "answer": 0, "explanation": "El transistor bipolar se controla por la corriente inyectada en la base." },
+
+{ "epigrafe": 1, "question": "El transistor MOSFET se controla mediante:", "options": ["La tensión de puerta", "La corriente de base", "La resistencia de emisor"], "answer": 0, "explanation": "El MOSFET se activa por la tensión en la puerta, que controla el canal de conducción." },
+
+{ "epigrafe": 1, "question": "En configuración emisor común, un transistor BJT proporciona:", "options": ["Ganancia de corriente y voltaje", "Solo ganancia de corriente", "Solo atenuación de señal"], "answer": 0, "explanation": "El emisor común da ganancia de tensión y corriente, siendo la configuración más usada como amplificador." },
+
+{ "epigrafe": 1, "question": "La región activa de un transistor BJT se da cuando:", "options": ["La unión base-emisor está directa y la base-colector inversa", "Ambas uniones están en directa", "Ambas uniones están en inversa"], "answer": 0, "explanation": "El modo activo se logra con la base-emisor en directa y la base-colector en inversa." },
+
+{ "epigrafe": 1, "question": "Un transistor en saturación significa que:", "options": ["Conduce al máximo entre colector y emisor", "Está en corte", "Solo funciona en baja frecuencia"], "answer": 0, "explanation": "En saturación, el transistor conduce casi como un interruptor cerrado." },
+
+{ "epigrafe": 1, "question": "El FET de canal N conduce cuando:", "options": ["Se aplica tensión positiva en la puerta respecto a la fuente", "Se aplica tensión negativa a la base", "Se aumenta la temperatura ambiente"], "answer": 0, "explanation": "El canal N se abre al aplicar tensión positiva en la puerta respecto a la fuente." },
+
+{ "epigrafe": 1, "question": "Un transistor en configuración colector común se denomina también:", "options": ["Seguidor de emisor", "Amplificador diferencial", "Conmutador Darlington"], "answer": 0, "explanation": "El colector común es el seguidor de emisor, usado por su baja impedancia de salida." },
+
+{ "epigrafe": 1, "question": "El parámetro hFE en un transistor indica:", "options": ["La ganancia de corriente en continua", "La frecuencia máxima de trabajo", "La resistencia de base"], "answer": 0, "explanation": "El hFE es la relación entre corriente de colector y corriente de base en DC." },
+
+{ "epigrafe": 1, "question": "En un MOSFET, la resistencia de conducción RDS(on) debe ser:", "options": ["Lo más baja posible", "Alta para limitar corriente", "Variable con la frecuencia"], "answer": 0, "explanation": "Una RDS(on) baja reduce las pérdidas por conducción en un MOSFET." },
+
+{ "epigrafe": 1, "question": "El transistor IGBT combina características de:", "options": ["MOSFET y BJT", "Diodo y LED", "SCR y triac"], "answer": 0, "explanation": "El IGBT combina la compuerta aislada de un MOSFET con la capacidad de conducción de un BJT." },
+
+{ "epigrafe": 1, "question": "El diodo ideal en polarización directa se comporta como:", "options": ["Un cortocircuito sin caída de tensión", "Una resistencia de 50 Ω", "Un generador de corriente constante"], "answer": 0, "explanation": "El diodo ideal en directa se considera como un cortocircuito perfecto." },
+
+{ "epigrafe": 1, "question": "La corriente inversa de un diodo real depende principalmente de:", "options": ["La temperatura", "La frecuencia de operación", "El material de encapsulado"], "answer": 0, "explanation": "La corriente de fuga inversa aumenta exponencialmente con la temperatura." },
+
+{ "epigrafe": 1, "question": "Un diodo de recuperación rápida se utiliza en:", "options": ["Fuentes conmutadas", "Circuitos de audio", "Osciladores de cuarzo"], "answer": 0, "explanation": "Los diodos rápidos permiten conmutaciones en fuentes switching y alta frecuencia." },
+
+{ "epigrafe": 1, "question": "El símbolo del diodo Zener se diferencia porque:", "options": ["Tiene extremos con doble línea en el cátodo", "Se dibuja con flechas en ambas direcciones", "Incluye un círculo alrededor"], "answer": 0, "explanation": "El símbolo del Zener tiene el cátodo con forma de líneas quebradas." },
+
+{ "epigrafe": 1, "question": "Un LED emite luz debido a:", "options": ["Recombinación de electrones y huecos en la unión", "Fluorescencia inducida por calor", "Efecto termoiónico"], "answer": 0, "explanation": "El LED emite luz por recombinación de electrones y huecos en la unión PN." },
+
+{ "epigrafe": 1, "question": "En un transistor PNP, la corriente de emisor fluye:", "options": ["Del emisor hacia la base", "De la base al emisor", "Del colector hacia el emisor"], "answer": 0, "explanation": "En un PNP, la corriente de emisor fluye hacia la base." },
+
+{ "epigrafe": 1, "question": "La región de corte en un transistor significa:", "options": ["No hay conducción entre colector y emisor", "La corriente de base es máxima", "El transistor funciona como amplificador"], "answer": 0, "explanation": "En corte, no circula corriente de colector y el transistor está apagado." },
+
+{ "epigrafe": 1, "question": "Un MOSFET de canal P conduce cuando:", "options": ["Se aplica tensión negativa en la puerta respecto a la fuente", "Se aplica tensión positiva en la base", "La corriente de puerta aumenta"], "answer": 0, "explanation": "El canal P se activa con tensión negativa en la puerta." },
+
+{ "epigrafe": 1, "question": "La principal ventaja de un MOSFET frente a un BJT es:", "options": ["Alta impedancia de entrada", "Mayor ganancia de corriente", "Mejor respuesta en baja frecuencia"], "answer": 0, "explanation": "El MOSFET tiene compuerta aislada, ofreciendo altísima impedancia de entrada." },
+
+{ "epigrafe": 1, "question": "El transistor en configuración base común se caracteriza por:", "options": ["Alta ganancia de voltaje pero baja de corriente", "Alta ganancia de corriente y voltaje", "Ganancia unitaria en ambos parámetros"], "answer": 0, "explanation": "Base común da alta ganancia de voltaje, pero ganancia de corriente menor que 1." },
+
+{ "epigrafe": 1, "question": "Un amplificador operacional real se diferencia del ideal porque:", "options": ["Tiene limitaciones de ganancia y velocidad de respuesta", "Posee ganancia infinita", "No admite realimentación negativa"], "answer": 0, "explanation": "En la práctica, un operacional tiene ganancia finita y ancho de banda limitado." },
+
+{ "epigrafe": 1, "question": "Un amplificador sumador con operacional realiza:", "options": ["La suma ponderada de señales de entrada", "La multiplicación de señales", "La conversión analógica-digital"], "answer": 0, "explanation": "El sumador con operacional entrega una salida proporcional a la suma de entradas." },
+
+{ "epigrafe": 2, "question": "El uso de ionizadores en áreas ESD permite:", "options": ["Neutralizar cargas en materiales aislantes", "Reducir la inductancia de los cables", "Evitar la saturación de transistores"], "answer": 0, "explanation": "Los ionizadores eliminan cargas en superficies aislantes que no pueden conectarse a tierra." },
+
+{ "epigrafe": 2, "question": "Una pulsera ESD debe conectarse a tierra mediante:", "options": ["Una resistencia de seguridad de 1 MΩ", "Un fusible de 10 A", "Un cable directo sin resistencia"], "answer": 0, "explanation": "La resistencia de 1 MΩ limita la corriente de descarga para proteger al operador." },
+
+{ "epigrafe": 3, "question": "Un sistema de lazo abierto en servomecanismos se caracteriza por:", "options": ["No tener realimentación", "Corregir errores automáticamente", "Usar sensores redundantes"], "answer": 0, "explanation": "El lazo abierto funciona sin realimentación, por lo que no corrige desviaciones." },
+
+{ "epigrafe": 3, "question": "La realimentación negativa en servomecanismos se utiliza para:", "options": ["Reducir el error y mejorar la estabilidad", "Aumentar la distorsión", "Incrementar indefinidamente la ganancia"], "answer": 0, "explanation": "La realimentación negativa estabiliza la respuesta y reduce errores." },
+
+{ "epigrafe": 4, "question": "Las ondas HF se utilizan en aviación para:", "options": ["Comunicaciones de largo alcance por reflexión ionosférica", "Enlaces de radar de corto alcance", "Comunicaciones satelitales UHF"], "answer": 0, "explanation": "Las ondas HF rebotan en la ionosfera y permiten cubrir miles de kilómetros." },
+
+{ "epigrafe": 4, "question": "La modulación AM se caracteriza por:", "options": ["Variación de amplitud de la portadora", "Variación de frecuencia de la portadora", "Variación de fase de la portadora"], "answer": 0, "explanation": "En AM, la amplitud de la portadora varía proporcionalmente a la señal moduladora." },
+
+{ "epigrafe": 4, "question": "Una antena direccional en comunicaciones aeronáuticas se emplea para:", "options": ["Aumentar el alcance en una dirección concreta", "Cubrir todas las direcciones horizontales", "Evitar la reflexión ionosférica"], "answer": 0, "explanation": "Las antenas direccionales concentran energía, aumentando el alcance en la dirección deseada." },
+
+{ "epigrafe": 4, "question": "El sistema ADS-B transmite principalmente en:", "options": ["1090 MHz", "121,5 MHz", "455 kHz"], "answer": 0, "explanation": "El ADS-B utiliza 1090 MHz para transmitir información de la aeronave." }
+]
+
+
+
+
