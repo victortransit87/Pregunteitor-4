@@ -315,12 +315,39 @@
     );
   }
 
+  const storedBankRaw = localStorage.getItem('qBank');
+  let storedBank = null;
+  if (storedBankRaw) {
+    try {
+      const parsed = JSON.parse(storedBankRaw);
+      if (Array.isArray(parsed)) {
+        storedBank = parsed;
+      }
+    } catch (err) {
+      console.warn('No se pudo leer el banco guardado de preguntas:', err);
+    }
+  }
+
+  const hasStoredQuestions = Array.isArray(storedBank) && storedBank.length > 0;
+
   // Banco por defecto (IDs como strings para consistencia)
-  let allQuestions = JSON.parse(localStorage.getItem('qBank')) || [
+  let allQuestions = Array.isArray(storedBank) ? storedBank : [
     {id: generateUID(), epigrafe: 15, question: "¿prueba?", options:["Protón","Electrón","Neutrón"], answer:1, explanation:"El electrón tiene carga negativa."},
     {id: generateUID(), epigrafe: 15, question: "¿Prueba2?", options:["Arranca con más potencia","No arranca por falta de campo giratorio","Funciona normalmente pero con menor velocidad"], answer:1, explanation:"Con una sola fase no hay campo giratorio."}
   ];
-  let reps = JSON.parse(localStorage.getItem('reps')) || {};
+
+  let reps = {};
+  const storedRepsRaw = localStorage.getItem('reps');
+  if (storedRepsRaw) {
+    try {
+      const parsedReps = JSON.parse(storedRepsRaw);
+      if (parsedReps && typeof parsedReps === 'object') {
+        reps = parsedReps;
+      }
+    } catch (err) {
+      console.warn('No se pudieron leer las estadísticas guardadas:', err);
+    }
+  }
 
   function saveBank() { localStorage.setItem('qBank', JSON.stringify(allQuestions)); }
   function saveReps() { localStorage.setItem('reps', JSON.stringify(reps)); }
@@ -565,17 +592,31 @@ deleteEpigrafeBtn.addEventListener('click', async () => {
 
 
 
-  function importarPreguntas(data, { replace = false, silent = false } = {}) {
+  function importarPreguntas(data, { replace = false, silent = false, resetProgress = true } = {}) {
     if (!Array.isArray(data)) {
       if (!silent) { showMessage(adminMsgArea, 'El formato debe ser un array de preguntas.', true); }
       return 0;
     }
 
     const nuevasPreguntas = [];
+    const seenIds = new Set((replace ? [] : allQuestions.map(q => q.id)).filter(Boolean));
     data.forEach(q => {
       if (typeof q.epigrafe === 'number' && typeof q.question === 'string' && Array.isArray(q.options) && typeof q.answer === 'number') {
+        let candidateId = null;
+        if (typeof q.id === 'string' && q.id.trim()) {
+          candidateId = q.id.trim();
+        } else if (typeof q.id === 'number' && Number.isFinite(q.id)) {
+          candidateId = String(q.id);
+        }
+        if (!candidateId) {
+          candidateId = generateUID();
+        }
+        while (seenIds.has(candidateId)) {
+          candidateId = generateUID();
+        }
+        seenIds.add(candidateId);
         nuevasPreguntas.push({
-          id: generateUID(),
+          id: candidateId,
           epigrafe: q.epigrafe,
           question: q.question,
           options: q.options,
@@ -592,7 +633,12 @@ deleteEpigrafeBtn.addEventListener('click', async () => {
 
     if (replace) {
       allQuestions = nuevasPreguntas;
-      reps = {};
+      if (resetProgress) {
+        reps = {};
+      } else {
+        const validIds = new Set(allQuestions.map(q => q.id));
+        reps = Object.fromEntries(Object.entries(reps).filter(([qid]) => validIds.has(qid)));
+      }
     } else {
       allQuestions = allQuestions.concat(nuevasPreguntas);
     }
@@ -681,11 +727,14 @@ deleteEpigrafeBtn.addEventListener('click', async () => {
   adminSearch.addEventListener('input', renderQuestionsList);
 
   async function autoLoadQuestionsFromFile() {
+    if (hasStoredQuestions && allQuestions.length > 0) {
+      return false;
+    }
     try {
       const response = await fetch('preguntas.json', { cache: 'no-store' });
       if (!response.ok) { return false; }
       const data = await response.json();
-      const imported = importarPreguntas(data, { replace: true, silent: true });
+      const imported = importarPreguntas(data, { replace: true, silent: true, resetProgress: false });
       return imported > 0;
     } catch (err) {
       console.warn('No se pudo cargar preguntas.json automáticamente:', err);
